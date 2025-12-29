@@ -149,7 +149,10 @@ where ClaimStatus='Rejected';
 
 --4.17.Display PolicyId, PolicyName, PremiumAmount along with computed fields not in 
 -- table à 6% LocalTaxes, PremiumAmountWithTax and MonthlyPremiumAmount considering PremiumAmount is Annual.
-
+select PolicyID,PolicyName,PremiumAmount,PremiumAmount * 0.06 as LocalTaxes,
+    PremiumAmount + (PremiumAmount * 0.06) as PremiumAmountWithTax,
+    PremiumAmount/12 as MonthlyPremiumAmount
+from Policies;
 
 
 --4.18.Write a command to add Address and City Columns in the Customers table.
@@ -164,10 +167,10 @@ ALTER TABLE Agents
 ADD DevOfId INT;
 
 --4.20.Write command to make the above DevOfId as a recursive foreign key to AgentId as Parent.
-
-
-
-
+ALTER TABLE Agents
+ADD CONSTRAINT FK_Agents_DevOf
+FOREIGN KEY(DevOfId)
+REFERENCES Agents(AgentID);
 
 --5.1.List all Policies for a CustomerId 5.
 select p.PolicyID,p.PolicyName,cus.FirstName from Policies as p
@@ -177,45 +180,22 @@ join Customers as cus
 on cus.CustomerID=pa.CustomerID
 where cus.CustomerID=5;
 
-
-
-
-
--- JOINS : 2 ways (arbitary conditions or JOIN keywords)
------------------------
-
--- We get cartesian product if we do this
-select * from Claims,PolicyAssignments;
-
--- So we have to use conditions to get required data
-select * from Claims as c,PolicyAssignments as p
-where c.AssignmentID=p.AssignmentID;
-
-select c.claimID,c.ClaimAmount,p.CustomerID,p.PolicyID from Claims as c,PolicyAssignments as p
-where c.AssignmentID=p.AssignmentID;
-
-
-select c.ClaimID,c.ClaimAmount,p.PolicyID,p.AgentID,cus.FirstName as CustomerName,cus.Phone from Claims as c,PolicyAssignments as p,Customers as cus
-where c.AssignmentID=p.AssignmentID AND p.CustomerID=cus.CustomerID
-
-
--- Later JOIN keywords are introduced
-
--- INNER JOIN or simply join
-
-select * from Claims as c
-join PolicyAssignments as p -- inner join on 2 tables
-on c.AssignmentID=p.AssignmentID;
-
-select * from Claims as c
-join PolicyAssignments as p
-on c.AssignmentID=p.AssignmentID -- inner join on 3 tables
+--5.2.View all customers with their policies.
+select cus.LastName+'.'+cus.FirstName as Customer,p.PolicyID,p.PolicyName from Policies as p
+join PolicyAssignments as pa
+on p.PolicyID=pa.PolicyID
 join Customers as cus 
-on cus.CustomerID=p.CustomerID;
+on cus.CustomerID=pa.CustomerID;
 
-select c.ClaimID,c.ClaimAmount,pol.PolicyType,pa.AgentID,a.AgentName,cus.FirstName as CustomerName,cus.Phone from Claims as c
+--5.3.View claims with customer name.
+select cus.LastName+'.'+cus.FirstName as Customer,c.ClaimStatus,c.ClaimAmount from Claims as c
 join PolicyAssignments as pa
 on c.AssignmentID=pa.AssignmentID
+join Customers as cus 
+on cus.CustomerID=pa.CustomerID;
+
+--5.4.Display FirstName, PolicyName, AgentName, StartDate and EndDate from their respective tables.
+select cus.FirstName,pol.PolicyName,a.AgentName,pa.StartDate,pa.EndDate from PolicyAssignments as pa
 join Customers as cus 
 on cus.CustomerID=pa.CustomerID
 join Policies as pol
@@ -223,21 +203,56 @@ on pol.PolicyID=pa.PolicyID
 join Agents as a
 on a.AgentID=pa.AgentID;
 
--- Left Join or Left Outer Join
+--5.5.Display claims report with FirstName, PolicyName, ClaimAmount, ClaimStatus, and ClaimDate from their respective tables.
+select cus.FirstName as CustomerName,pol.PolicyName,c.ClaimAmount,c.ClaimStatus,c.ClaimDate from Claims as c
+join PolicyAssignments as pa
+on c.AssignmentID=pa.AssignmentID
+join Customers as cus 
+on cus.CustomerID=pa.CustomerID
+join Policies as pol
+on pol.PolicyID=pa.PolicyID;
 
-select * from Claims as c
-left join PolicyAssignments as p 
-on c.AssignmentID=p.AssignmentID;
+--5.6.Display records of Customers with or without Policies.
+select c.CustomerID,c.FirstName,p.PolicyName from Customers as c
+left join PolicyAssignments as pa
+on c.CustomerID=pa.CustomerID
+left join Policies as p 
+on p.PolicyID=pa.PolicyID;
 
--- Right Join or Right Outer Join
+--5.7.Display all Customers with NO Claims.
+select cus.CustomerID,cus.FirstName,cus.LastName from Customers cus
+left join PolicyAssignments pa
+on cus.CustomerID = pa.CustomerID
+left join Claims c
+on pa.AssignmentID = c.AssignmentID
+where c.ClaimID is NULL;
 
-select * from Claims as c
-right join PolicyAssignments as p
-on c.AssignmentID=p.AssignmentID;
 
--- Full Join or Full Outer Join
 
-select * from Claims as c
-full join PolicyAssignments as p
-on c.AssignmentID=p.AssignmentID;
+--5.8.Show CustomerName with Total Claim Amount per Customer.
+select cus.FirstName,sum(c.ClaimAmount) as Total_Claim_Amount  from Claims as c
+join PolicyAssignments as pa
+on c.AssignmentID=pa.AssignmentID
+join Customers as cus 
+on cus.CustomerID=pa.CustomerID
+group by cus.FirstName;
+
+
+--5.9.Show names and total claim amount of Customers With Claim Amount>50000 (Use HAVING Clause).
+select cus.FirstName,sum(c.ClaimAmount) as Total_Claim_Amount from Claims as c
+join PolicyAssignments as pa
+on c.AssignmentID=pa.AssignmentID
+join Customers as cus 
+on cus.CustomerID=pa.CustomerID
+group by cus.FirstName
+having sum(c.ClaimAmount)>50000;
+
+
+--5.10.Display list with Agent Wise Policy Count.
+select a.AgentID,a.AgentName,COUNT(pa.PolicyID) as Policy_Count from PolicyAssignments as pa
+join Agents as a 
+on a.AgentID = pa.AgentID
+join Policies as pol 
+on pol.PolicyID = pa.PolicyID
+group by a.AgentID,a.AgentName;
 
