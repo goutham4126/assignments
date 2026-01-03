@@ -108,6 +108,7 @@ INSERT INTO SalesOrderDetails VALUES
 -- 1. Display the names of all the clients. 
 select Name from Client;
 
+
 select * from Client
 where City='Mumbai';
 
@@ -148,18 +149,36 @@ ADD CONSTRAINT pk_client PRIMARY KEY(ClientNo);
 ALTER TABLE Client
 ADD phone_no VARCHAR(15);
 
+ALTER TABLE Product
+ALTER COLUMN Description VARCHAR(15) NOT NULL;
+
+ALTER TABLE Product
+ALTER COLUMN ProfitPerc DECIMAL(4,2) NOT NULL;
+
+ALTER TABLE Product
+ALTER COLUMN SellPrice DECIMAL(8,2) NOT NULL;
+
+ALTER TABLE Product
+ALTER COLUMN CostPrice DECIMAL(8,2) NOT NULL;
+
+ALTER TABLE Client
+ALTER COLUMN Name VARCHAR(60);
+
+ALTER TABLE Client
+DROP COLUMN PinCode;
+
 
 -- Define in 1 or 2 lines and give one example also
 
--- 1. A table having relationship with itself is called recursive relationship.
+-- 1. Relationship where a table is related to itself is called recursive relationship.
 
--- 2. Minimum Super key is the Composite key. It is a primary key with a combination of 2 or more columns.
+-- 2. A composite key is a primary key made up of two or more columns used together to uniquely identify a record.
 
--- 3. the like operator with pattern matching finds similar pattern strings using wildcard charecters (_,%). 
+-- 3. The LIKE operator is used to search for a specified pattern in a column using wildcard characters % and _.
 
--- 4. Drops complete table from the schmea. 
+-- 4. The DROP TABLE command permanently removes a table and all its data from the database schema.
 
--- 5 . Full outer join selects all the records from both tables. 
+-- 5 . A full outer join returns all records from both tables, matching rows where possible and NULLs where no match exists.
 
 
 -- Write queries for following descriptions (JOINS)
@@ -182,7 +201,18 @@ on p.ProductNo=sod.ProductNo
 where DATENAME(month,DelyDate)=DATENAME(month,GETDATE());
 
 
-select c.Name from SalesOrderDetails as sod 
+SELECT 
+    p.ProductNo,
+    p.Description
+FROM Product p
+JOIN SalesOrderDetails s
+ON p.ProductNo = s.ProductNo
+GROUP BY p.ProductNo, p.Description
+HAVING COUNT(s.ProductNo) > 1;
+
+
+
+select DISTINCT c.Name from SalesOrderDetails as sod 
 join SalesOrder as so 
 on sod.OrderNo=so.OrderNo
 join Product as p 
@@ -193,16 +223,56 @@ where p.Description='Trousers';
 
 
 
-select * from SalesOrderDetails as sod 
+select so.OrderNo, p.ProductNo, p.Description, sod.QtyOrdered from SalesOrderDetails as sod 
 join SalesOrder as so 
 on sod.OrderNo=so.OrderNo
 join Product as p 
 on p.ProductNo=sod.ProductNo
-where p.QtyOnHand<5 and p.Description='Pull Overs';
+where sod.QtyOrdered < 5 and p.Description='Pull Overs';
 
 
 -- Write queries for following descriptions (sub queries)
 
+select * from Product
+where ProductNo NOT IN (select ProductNo from SalesOrderDetails);
+
+
+SELECT Name,
+       Address1 + ', ' + Address2 + ', ' + City + ', ' + State AS Complete_Address
+FROM Client
+WHERE ClientNo = (
+    SELECT ClientNo
+    FROM SalesOrder
+    WHERE OrderNo = 'O19001'
+);
+
+SELECT Name
+FROM Client
+WHERE ClientNo IN (
+    SELECT ClientNo
+    FROM SalesOrder
+    WHERE OrderDate < '2002-05-01'
+);
+
 
 
 -- Write commands to do following
+
+SELECT FORMAT(CONVERT(date,GETDATE()),'dddd, MMMM dd, yyyy') AS System_Date;
+
+select 99999.99 as BalDue from Client; 
+
+SELECT 99999.99 AS "Balance Due"
+FROM Client;
+
+
+SELECT 
+'Salesman ' + SalesmanName +
+' sold goods of ' + CAST(YtdSales AS VARCHAR) +
+' while given target was ' + CAST(TgtToGet AS VARCHAR)
+AS Message
+FROM Salesman
+WHERE SalesmanName = 'Aman';
+
+SELECT DATEDIFF(YEAR, '2005-02-09', GETDATE()) AS Age_In_Years;
+
