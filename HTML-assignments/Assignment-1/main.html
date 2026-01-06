@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <!-- 1.create one html page covering all basic formatting tags -->
+
+        <marquee>Lorem ipsum, <i>dolor sit amet <mark>adipisicing elit.</mark></i> Aliquam hic esse, nam tempore quos commodi, quod vitae iste <strong>aperiam quasi eius</strong> labore ab <small>rem nobis</small>, nostrum modi! Dolor, officiis similique.</marquee>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        
+
+        <figure>
+            <img src="./Images/image-test.jpg" height="400" alt="Image Test"/>
+            <figcaption>Image for testing</figcaption>
+        </figure>
+
+        <video controls width="600">
+            <source src="./Files/video-test.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <br/>
+        <audio controls src="./Files/audio-test.mp3"></audio>
+
+        <br/>
+
+        <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/WSGmzUXotyg?si=-p3BUWMWefxl6X5O" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+        gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen></iframe>
+        
+        <br/>
+
+        <div align="center">
+            <h1>Submit form</h1>
+            <p>Fill this form for selecting your course</p>
+            <span></span>
+            <form>
+                <fieldset>
+                <legend>Choose your Course</legend>
+
+                <label>Enter Username</label>
+                <input type="text" name="username"/>
+
+                <br/>
+
+                <label>Enter Password</label>
+                <input type="password" name="password"/>
+
+                <br/>
+
+                <label>Select Gender</label>
+                <input type="radio" name="gender" value="male"/> Male
+                <input type="radio" name="gender" value="female"/> Female
+                
+                <br/>
+
+                <label>Select Course</label>
+                <select>
+                    <option>Computer Science</option>
+                    <option>Information Technology</option>
+                    <option>Electronics</option>
+                    <option>Mechanical</option>
+                    <option>Civil</option>
+                    <option>Biotechnology</option>
+                </select>
+
+                <br/>
+
+                <label>Additional Comments</label>
+                <textarea rows="4" cols="50" placeholder="Enter comments here"></textarea>
+                
+                <br/>
+
+                <button type="submit">Submit button</button>
+                
+                <br/>
+
+                <input type="checkbox" name="subscribe" value="newsletter"/> Subscribe to newsletter
+                </fieldset>
+            </form>
+
+        </div>
+            
+        <hr>
+
+        <details>
+            <summary>Show Table</summary>
+                <table border="1" cellpadding="10" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th colspan="1">Name</th>
+                        <th colspan="1">Age</th>
+                        <th colspan="1">City</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Goutham</td>
+                        <td>23</td>
+                        <td>Hyderabad</td>
+                    </tr>
+                    <tr>
+                        <td>Ramesh</td>
+                        <td>25</td>
+                        <td>Chennai</td>
+                    </tr>
+                    <tr>
+                        <td>Suresh</td>
+                        <td>22</td>
+                        <td>Bangalore</td>
+                    </tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+        </details>
+
+       
+        <footer>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+            <ol type="I">
+                <li>First</li>
+                <li>Second</li>
+                <li>Third</li>
+            </ol>
+        </footer>
+
+
+    <canvas></canvas>
+
+
+    <center>I am depricated tag</center>
+    <big>I am depricated tag</big>
+    <pre>
+        This is a <code>code</code> text block.
+        It preserves both spaces and
+        line breaks.
+    </pre>
+
+
+
+    <!-- 2.create a book page having sections and use of named anchor -->
+
+    <h1>Books page</h1>
+    <nav>
+        <a href="#section1" name="#section1">Section 1</a> |
+        <a href="#section2" name="#section2">Section 2</a> |
+        <a href="#section3" name="#section3">Section 3</a>
+    </nav>
+    <section id="section1">
+        <h2>Section 1: Introduction to HTML</h2>
+        <p>This section covers the basics of HTML, including tags, attributes, and structure.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, quisquam temporibus! Nihil atque aliquid expedita debitis velit illum ratione perspiciatis consectetur inventore ullam veniam, voluptatibus voluptates ab officia quo. Magni, dolorem eius officia deserunt amet odit similique animi consequuntur alias. Ab magnam quos facilis, tempore expedita quod accusamus cumque illum sed unde voluptatibus exercitationem odit itaque et rerum sint consequatur sequi. Pariatur facilis eos, voluptate officia magni molestias ab unde veniam nostrum saepe dolorum quo. Sit, voluptas. Quam fugiat harum inventore nemo architecto quia sit! Nisi laborum voluptate, animi sint laboriosam quos amet exercitationem culpa modi, autem quia suscipit excepturi.
+            atque aliquid expedita debitis velit illum ratione perspiciatis consectetur inventore ullam veniam, voluptatibus voluptates ab officia quo. Magni, dolorem eius officia deserunt amet odit similique animi consequuntur alias. Ab magnam quos facilis, tempore expedita quod accusamus cumque illum sed unde voluptatibus exercitationem odit itaque et rerum sint consequatur sequi. Pariatur facilis eos, voluptate officia magni molestias ab unde veniam nostrum saepe dolorum quo. Sit, voluptas. Quam fugiat harum inventore nemo architecto quia sit! Nisi laborum voluptate, animi sint laboriosam quos amet exercitationem culpa modi, autem quia suscipit excepturi.
+        </p>
+    </section>
+    <section id="section2">
+        <h2>Section 2: Advanced HTML Elements</h2>
+        <p>This section delves into more complex HTML elements such as forms, tables, and multimedia integration.</p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, quisquam temporibus! Nihil atque aliquid expedita debitis velit illum ratione perspiciatis consectetur inventore ullam veniam, voluptatibus voluptates ab officia quo. Magni, dolorem eius officia deserunt amet odit similique animi consequuntur alias. Ab magnam quos facilis, tempore expedita quod accusamus cumque illum sed unde voluptatibus exercitationem odit itaque et rerum sint consequatur sequi. Pariatur facilis eos, voluptate officia magni molestias ab unde veniam nostrum saepe dolorum quo. Sit, voluptas. Quam fugiat harum inventore nemo architecto quia sit! Nisi laborum voluptate, animi sint laboriosam quos amet exercitationem culpa modi, autem quia suscipit excepturiatque aliquid expedita debitis velit illum ratione perspiciatis consectetur inventore ullam veniam, voluptatibus voluptates ab officia quo. Magni, dolorem eius officia deserunt amet odit similique animi consequuntur alias. Ab magnam quos facilis, tempore expedita quod accusamus cumque illum sed unde voluptatibus exercitationem odit itaque et rerum sint consequatur sequi. Pariatur facilis eos, voluptate officia magni molestias ab unde veniam nostrum saepe dolorum quo. Sit, voluptas. Quam fugiat harum inventore nemo architecto quia sit! Nisi laborum voluptate, animi sint laboriosam quos amet exercitationem culpa modi, autem quia suscipit excepturi..</p>
+    </section>
+    <section id="section3">
+        <h2>Section 3: Best Practices</h2>
+        <p>This section discusses best practices for writing clean, efficient, and accessible HTML code.</p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, quisquam temporibus! Nihil atque aliquid expedita debitis velit illum ratione perspiciatis consectetur inventore ullam veniam, voluptatibus voluptates ab officia quo. Magni, dolorem eius officia deserunt amet odit similique animi consequuntur alias. Ab magnam quos facilis, tempore expedita quod accusamus cumque illum sed unde voluptatibus exercitationem odit itaque et rerum sint consequatur sequi. Pariatur facilis eos, voluptate officia magni molestias ab unde veniam nostrum saepe dolorum quo. Sit, voluptas. Quam fugiat harum inventore nemo architecto quia sit! Nisi laborum voluptate, animi sint laboriosam quos amet exercitationem culpa modi, autem quia suscipit excepturi.atque aliquid expedita debitis velit illum ratione perspiciatis consectetur inventore ullam veniam, voluptatibus voluptates ab officia quo. Magni, dolorem eius officia deserunt amet odit similique animi consequuntur alias. Ab magnam quos facilis, tempore expedita quod accusamus cumque illum sed unde voluptatibus exercitationem odit itaque et rerum sint consequatur sequi. Pariatur facilis eos, voluptate officia magni molestias ab unde veniam nostrum saepe dolorum quo. Sit, voluptas. Quam fugiat harum inventore nemo architecto quia sit! Nisi laborum voluptate, animi sint laboriosam quos amet exercitationem culpa modi, autem quia suscipit excepturi.</p>  
+    </section>
+
+    
+    <!-- 3.create a page with map of any state or country and create 4-5 clickable links using usemap,map,area.atleast one rect,circle,poly -->
+
+    <h1>Image Map of India</h1>
+    <img src="./Images/india-map.jpg" alt="Map of India" usemap="#india-map">
+    <map name="india-map">
+        <area shape="rect" coords="245,245,0,0" href="https://en.wikipedia.org/wiki/Delhi" alt="Delhi" target="_blank">
+        <area shape="poly" coords="530,412,522,410,533,418,524,419" href="https://en.wikipedia.org/wiki/Kolkata" alt="Kolkata" target="_blank">
+        <area shape="circle" coords="207,679,10" href="https://en.wikipedia.org/wiki/Bangalore" alt="Bangalore" target="_blank">
+        <area shape="rect" coords="128,545,139,542" href="https://en.wikipedia.org/wiki/Mumbai" alt="Mumbai" target="_blank">
+    </map>
+
+</body>
+</html>

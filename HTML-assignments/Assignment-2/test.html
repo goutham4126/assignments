@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="./Styles/test.css">
+    <script src="script.js" defer></script>
+    <style>
+        .navbar{
+            font-size: 16px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #667eea;
+            margin: 40px 0 30px 0;
+            font-size: 32px;
+        }
+
+        img[usemap] {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 30px auto;
+        }
+
+        footer{
+            display:flex;
+            flex-direction:row;
+            align-items:center;
+            justify-content:space-between;
+            
+        }
+
+    </style>
+</head>
+<body>
+        <header>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+     <marquee>Lorem ipsum, <i>dolor sit amet <mark>adipisicing elit.</mark></i> Aliquam hic esse, nam tempore quos commodi, quod vitae iste <strong>aperiam quasi eius</strong> labore ab <small>rem nobis</small>, nostrum modi! Dolor, officiis similique.</marquee>
+       
+     
+        <!-- <figure>
+            <img src="./Images/image-test.jpg" height="400" alt="Image Test"/>
+            <figcaption>Image for testing</figcaption>
+            <audio controls src="/audio-test.mp3"></audio>
+        </figure> -->
+
+        <div id="media-section">
+            <video controls style="width:50%;">
+                <source src="./Files/video-test.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <iframe width="600" style="width:50%;" height="320" 
+            src="https://www.youtube.com/embed/WSGmzUXotyg?si=-p3BUWMWefxl6X5O" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+            gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen></iframe>
+        </div>
+        <div id="form-container">
+            <h1 class="form-heading">Course Registration Form</h1>
+            <p class="form-description">Fill this form to select your course</p>
+            <form>
+                <fieldset>
+                <legend class="fieldset-legend">Choose your Course</legend>
+
+                <label>Enter Username</label>
+                <input type="text" name="username" placeholder="Enter your username" required/>
+
+                <label>Enter Password</label>
+                <input type="password" name="password" placeholder="Enter your password" required/>
+
+                <label>Select Gender</label>
+                <div style="margin-bottom: 15px;">
+                    <input type="radio" name="gender" value="male" id="male"/> <label for="male" style="display:inline; margin: 0; font-weight: normal;">Male</label>
+                    <input type="radio" name="gender" value="female" id="female" style="margin-left: 20px;"/> <label for="female" style="display:inline; margin: 0; font-weight: normal;">Female</label>
+                </div>
+                
+                <label>Select Course</label>
+                <select name="course" required>
+                    <option value="">-- Select a Course --</option>
+                    <option>Computer Science</option>
+                    <option>Information Technology</option>
+                    <option>Electronics</option>
+                    <option>Mechanical</option>
+                    <option>Civil</option>
+                    <option>Biotechnology</option>
+                </select>
+
+                <label>Additional Comments</label>
+                <textarea name="comments" placeholder="Enter comments here" rows="4"></textarea>
+                
+                <label style="display: flex; align-items: center; margin-top: 15px; font-weight: normal;">
+                    <input type="checkbox" name="subscribe" value="newsletter" style="margin-right: 10px;"/> Subscribe to newsletter
+                </label>
+
+                <button type="submit">Submit Form</button>
+                </fieldset>
+            </form>
+
+        </div>
+            
+        <hr>
+
+        <details>
+            <summary>📊 Show Table</summary>
+            <table border="1" cellpadding="10" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>City</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Goutham</td>
+                        <td>23</td>
+                        <td>Hyderabad</td>
+                    </tr>
+                    <tr>
+                        <td>Ramesh</td>
+                        <td>25</td>
+                        <td>Chennai</td>
+                    </tr>
+                    <tr>
+                        <td>Suresh</td>
+                        <td>22</td>
+                        <td>Bangalore</td>
+                    </tr>
+                </tbody>
+            </table>
+        </details>
+
+
+    <h1>HTML & Web Development Guide</h1>
+    <nav style="text-align: center; margin: 30px 0; padding: 20px;list-style-type: none;">
+        <a href="#section1" style="text-decoration: none;">📖 Section 1</a> |
+        <a href="#section2" style="text-decoration: none;">🔧 Section 2</a> |
+        <a href="#section3" style="text-decoration: none;">⭐ Section 3</a>
+    </nav>
+    <section id="section1">
+        <h2>Section 1: Introduction to HTML</h2>
+        <p>This section covers the basics of HTML, including tags, attributes, and structure.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, quisquam temporibus! Nihil atque aliquid expedita debitis velit illum ratione perspiciatis consectetur inventore ullam veniam, voluptatibus voluptates ab officia quo. Magni, dolorem eius officia deserunt amet odit similique animi consequuntur alias. Ab magnam quos facilis, tempore expedita quod accusamus cumque illum sed unde voluptatibus exercitationem odit itaque et rerum sint consequatur sequi. Pariatur facilis eos, voluptate officia magni molestias ab unde veniam nostrum saepe dolorum quo. Sit, voluptas. Quam fugiat harum inventore nemo architecto quia sit! Nisi laborum voluptate, animi sint laboriosam quos amet exercitationem culpa modi, autem quia suscipit excepturi.
+            atque aliquid expedita debitis velit illum ratione perspiciatis consectetur inventore ullam veniam, voluptatibus voluptates ab officia quo. Magni, dolorem eius officia deserunt amet odit similique animi consequuntur alias. Ab magnam quos facilis, tempore expedita quod accusamus cumque illum sed unde voluptatibus exercitationem odit itaque et rerum sint consequatur sequi. Pariatur facilis eos, voluptate officia magni molestias ab unde veniam nostrum saepe dolorum quo. Sit, voluptas. Quam fugiat harum inventore nemo architecto quia sit! Nisi laborum voluptate, animi sint laboriosam quos amet exercitationem culpa modi, autem quia suscipit excepturi.
+        </p>
+    </section>
+    <section id="section2">
+        <h2>Section 2: Advanced HTML Elements</h2>
+        <p>This section delves into more complex HTML elements such as forms, tables, and multimedia integration.</p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, quisquam temporibus! Nihil atque aliquid expedita debitis velit illum ratione perspiciatis consectetur inventore ullam veniam, voluptatibus voluptates ab officia quo. Magni, dolorem eius officia deserunt amet odit similique animi consequuntur alias. Ab magnam quos facilis, tempore expedita quod accusamus cumque illum sed unde voluptatibus exercitationem odit itaque et rerum sint consequatur sequi. Pariatur facilis eos, voluptate officia magni molestias ab unde veniam nostrum saepe dolorum quo. Sit, voluptas. Quam fugiat harum inventore nemo architecto quia sit! Nisi laborum voluptate, animi sint laboriosam quos amet exercitationem culpa modi, autem quia suscipit excepturiatque aliquid expedita debitis velit illum ratione perspiciatis consectetur inventore ullam veniam, voluptatibus voluptates ab officia quo. Magni, dolorem eius officia deserunt amet odit similique animi consequuntur alias. Ab magnam quos facilis, tempore expedita quod accusamus cumque illum sed unde voluptatibus exercitationem odit itaque et rerum sint consequatur sequi. Pariatur facilis eos, voluptate officia magni molestias ab unde veniam nostrum saepe dolorum quo. Sit, voluptas. Quam fugiat harum inventore nemo architecto quia sit! Nisi laborum voluptate, animi sint laboriosam quos amet exercitationem culpa modi, autem quia suscipit excepturi..</p>
+    </section>
+    <section id="section3">
+        <h2>Section 3: Best Practices</h2>
+        <p>This section discusses best practices for writing clean, efficient, and accessible HTML code.</p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, quisquam temporibus! Nihil atque aliquid expedita debitis velit illum ratione perspiciatis consectetur inventore ullam veniam, voluptatibus voluptates ab officia quo. Magni, dolorem eius officia deserunt amet odit similique animi consequuntur alias. Ab magnam quos facilis, tempore expedita quod accusamus cumque illum sed unde voluptatibus exercitationem odit itaque et rerum sint consequatur sequi. Pariatur facilis eos, voluptate officia magni molestias ab unde veniam nostrum saepe dolorum quo. Sit, voluptas. Quam fugiat harum inventore nemo architecto quia sit! Nisi laborum voluptate, animi sint laboriosam quos amet exercitationem culpa modi, autem quia suscipit excepturi.atque aliquid expedita debitis velit illum ratione perspiciatis consectetur inventore ullam veniam, voluptatibus voluptates ab officia quo. Magni, dolorem eius officia deserunt amet odit similique animi consequuntur alias. Ab magnam quos facilis, tempore expedita quod accusamus cumque illum sed unde voluptatibus exercitationem odit itaque et rerum sint consequatur sequi. Pariatur facilis eos, voluptate officia magni molestias ab unde veniam nostrum saepe dolorum quo. Sit, voluptas. Quam fugiat harum inventore nemo architecto quia sit! Nisi laborum voluptate, animi sint laboriosam quos amet exercitationem culpa modi, autem quia suscipit excepturi.</p>  
+    </section>
+
+    
+    <img src="./Images/india-map.jpg" alt="Map of India" usemap="#india-map" style="margin-top:100px;">
+    <map name="india-map">
+        <area shape="rect" coords="245,245,0,0" href="https://en.wikipedia.org/wiki/Delhi" alt="Delhi" target="_blank">
+        <area shape="poly" coords="530,412,522,410,533,418,524,419" href="https://en.wikipedia.org/wiki/Kolkata" alt="Kolkata" target="_blank">
+        <area shape="circle" coords="207,679,10" href="https://en.wikipedia.org/wiki/Bangalore" alt="Bangalore" target="_blank">
+        <area shape="rect" coords="128,545,139,542" href="https://en.wikipedia.org/wiki/Mumbai" alt="Mumbai" target="_blank">
+    </map>
+
+
+    <footer>
+        <p style="display:block;">&copy; 2026 Training Website. All rights reserved.</p>
+        <span>Contact us: goutham4126@gmail.com</span>
+    </footer>
+
+</body>
+</html>
