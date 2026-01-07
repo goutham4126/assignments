@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('../Images/bg-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: start;
+    padding: 30px;
+}
+
+.left-section{
+    width: 65%;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.right-section{
+    width: 35%;
+    padding: 10px;
+}
+
+.cart-section{
+    position:fixed;
+    width:30%;
+    background-color: white;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+}
+
+.cart-title{
+    font-size:18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:red;
+}
+
+.cart-desc{
+    text-align:center;
+    margin-top:10px;
+    font-size:14px;
+}
+
+.cart-image{
+    width:40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:40px;
+    margin-bottom:40px;
+    border-radius:10px;
+}
+
+
+.cards-section{
+    margin-top:20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px; 
+}
+
+.card{
+    background: rgba( 255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.card-image{
+    width:100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card-title{
+    font-size:14px;
+    margin-top:30px;
+    margin-bottom:5px;
+}
+
+.card-desc{
+    font-size:16px;
+    font-weight: bold;
+    margin-top:10px;
+    margin-bottom:5px;
+
+}
+
+.card-price{
+    font-size:18px;
+    font-weight: bold;
+    margin-top:10px;
+    color:maroon;
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6{
+    position:relative;
+}
+
+.button-1, .button-2, .button-3, .button-4, .button-5, .button-6{
+    position:absolute;
+    bottom:120px;
+    left: 65px;
+}
+
+.add-to-cart-button{
+    background-color: white;
+    color:black;
+    border:1px solid black;
+    padding:8px 15px;
+    cursor:pointer;
+    font-size:12px;
+    border-radius:20px;
+}
