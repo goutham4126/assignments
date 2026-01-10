@@ -7,7 +7,6 @@ const customers = [
     { id: 6, name: "Karthik", age: 31, policyType: "Health Insurance", coverage: 500000, premium: 7500 }
 ];
 
-// DOM Elements
 const form = document.getElementById("enquiryForm");
 const tableBody = document.getElementById("customerTableBody");
 const successMsg = document.getElementById("successMsg");
@@ -19,7 +18,6 @@ const totalCoverageEl = document.getElementById("totalCoverage");
 const searchInput = document.getElementById("searchInput");
 const policyFilter = document.getElementById("policyFilter");
 
-// Calculate Premium
 function calculatePremium(age, policyType, coverage) {
     let base = 0;
 
@@ -34,7 +32,6 @@ function calculatePremium(age, policyType, coverage) {
     return base;
 }
 
-// Render Table
 function renderTable(list) {
     tableBody.innerHTML = "";
 
@@ -53,7 +50,6 @@ function renderTable(list) {
     });
 }
 
-// Update Stats
 function updateStats() {
     const totalCustomers = customers.length;
     const totalPolicies = customers.length;
@@ -65,7 +61,6 @@ function updateStats() {
     totalCoverageEl.textContent = "₹" + totalCoverage.toLocaleString("en-IN");
 }
 
-// Search & Filter
 function applySearchAndFilter() {
     const searchText = searchInput.value.toLowerCase();
     const selectedPolicy = policyFilter.value;
@@ -84,11 +79,9 @@ function applySearchAndFilter() {
     renderTable(filtered);
 }
 
-// Events
 searchInput.addEventListener("input", applySearchAndFilter);
 policyFilter.addEventListener("change", applySearchAndFilter);
 
-// Form Submit
 form.addEventListener("submit", function(e) {
     e.preventDefault();
 
@@ -140,12 +133,10 @@ form.addEventListener("submit", function(e) {
     form.reset();
 });
 
-// Error Handler
 function showError(input, message) {
     input.parentElement.querySelector(".error").textContent = message;
 }
 
-// Initial Load
 document.addEventListener("DOMContentLoaded", () => {
     applySearchAndFilter();
     updateStats();
