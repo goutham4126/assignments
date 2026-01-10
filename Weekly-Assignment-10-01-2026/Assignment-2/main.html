@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css"/>
+    <link rel="stylesheet" href="./src/output.css"/>
+</head>
+<body>
+    <header class="h-16 bg-red-100">
+        
+    </header>
+    <!-- landing section -->
+    <section class="w-full h-screen flex">
+        <div class="flex justify-center items-center basis-1/2 bg-orange-100">
+            <h1>Insurance Company name</h1>
+            <p>Tagline</p>
+        </div>
+        <div class="flex justify-center items-center basis-1/2 bg-blue-100">
+            3 cards statistics(customers,claims and policies)
+        </div>
+    </section>
+
+    <!-- Insurance plans section -->
+    <section class="grid grid-cols-4 gap-10">
+        <div class="flex flex-col justify-center bg-slate-100">
+            <h1>Health Insurance</h1>
+            <p>Base premium: </p>
+            <p>Coverage amount: </p>
+            <button class="inline bg-amber-950 text-white px-3 py-2 rounded-2xl">Enroll now</button>
+        </div>
+        <div class="flex flex-col justify-center bg-slate-100">
+            <h1>Life Insurance</h1>
+            <p>Base premium: </p>
+            <p>Coverage amount: </p>
+            <button class="inline bg-amber-950 text-white px-3 py-2 rounded-2xl">Enroll now</button>
+        </div>
+        <div class="flex flex-col justify-center bg-slate-100">
+            <h1>Home Insurance</h1>
+            <p>Base premium: </p>
+            <p>Coverage amount: </p>
+            <button class="inline bg-amber-950 text-white px-3 py-2 rounded-2xl">Enroll now</button>
+        </div>
+        <div class="flex flex-col justify-center bg-slate-100">
+            <h1>Vechile Insurance</h1>
+            <p>Base premium: </p>
+            <p>Coverage amount: </p>
+            <button class="inline bg-amber-950 text-white px-3 py-2 rounded-2xl">Enroll now</button>
+        </div>
+    </section>
+
+    <!-- Customer enquiry form -->
+    <section class="">
+         <form id="enquiryForm">
+            <div class="field">
+                <label>Customer Name</label>
+                <input type="text" id="name" class="input-field">
+                <small class="error"></small>
+            </div>
+            <div class="field">
+                <label>Customer Age</label>
+                <input type="number" id="age" class="input-field">
+                <small class="error"></small>
+            </div>
+            <div class="field">
+                <label>Customer Email</label>
+                <input type="email" id="email" class="input-field">
+                <small class="error"></small>
+            </div>
+
+            <div class="field">
+                <label>Mobile Number</label>
+                <input type="tel" id="phone" class="input-field" maxlength="10">
+                <small class="error"></small>
+            </div>
+
+            <div class="field">
+                <label>Request Type</label>
+                <select id="requestType" class="input-field">
+                    <option value="">-- Select --</option>
+                    <option>Policy Enquiry</option>
+                    <option>Claim Related</option>
+                    <option>Feedback</option>
+                </select>
+                <small class="error"></small>
+            </div>
+
+            <div class="field">
+                <label>Policy Type</label>
+                <select id="policyType" class="input-field">
+                    <option value="">-- Select --</option>
+                    <option>Health Insurance</option>
+                    <option>Life Insurance</option>
+                    <option>Vehicle Insurance</option>
+                    <option>Home Insurance</option>
+                </select>
+                <small class="error"></small>
+            </div>
+
+            <div class="field">
+                <label>Message</label>
+                <textarea id="message" rows="4" class="input-field"></textarea>
+                <small class="error"></small>
+            </div>
+
+            <div class="field">
+                <label>Experience Rating</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="rating" value="1"> 1</label>
+                    <label><input type="radio" name="rating" value="2"> 2</label>
+                    <label><input type="radio" name="rating" value="3"> 3</label>
+                    <label><input type="radio" name="rating" value="4"> 4</label>
+                    <label><input type="radio" name="rating" value="5"> 5</label>
+                </div>
+                <small class="error"></small>
+            </div>
+
+            <button type="submit">Submit</button>
+
+            <p class="success-msg" id="successMsg"></p>
+        </form>
+    </section>
+    <footer class="h-16 bg-red-100">
+
+    <!-- Customer list table -->
+     <section>
+        <table class="border">
+            <thead>
+                <th class="border">
+                    <tr>Name</tr>
+                    <tr>Age</tr>
+                    <tr>policyType</tr>
+                    <tr>Coverage</tr>
+                    <tr>Estimated premium</tr>
+                </th>
+            </thead>
+            <tbody>
+                <th>
+                    
+                </th>
+            </tbody>
+        </table>
+     </section>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
