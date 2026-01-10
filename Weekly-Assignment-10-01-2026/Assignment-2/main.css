@@ -1,46 +1,60 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
 
-body {
-    background-color: #f1f5f9;
+p{
+    color:blue;
 }
 
-.form-container {
-    min-height: 100vh;
+.stat-card {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.stat-number {
+    font-size: 40px;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.plan-card {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.form-section {
+    padding: 50px 20px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 form {
     width: 100%;
     max-width: 420px;
-    background-color: white;
-    padding: 20px;
+    background: white;
+    padding: 25px;
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
-h3 {
-    margin-top: 12px;
-    color:blue;
-}
-
-p {
-    margin-bottom: 20px;
-    color: gray;
-    font-weight: 700;
-    font-size:12px;
-    margin-top:10px;
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .field {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 label {
@@ -56,41 +70,24 @@ label {
     border: 1px solid #ccc;
 }
 
-.input-field:focus {
-    border-color: #2563eb;
-    outline: none;
-}
-
-.radio-group {
-    display: flex;
-    gap: 15px;
-}
-
 .error {
     color: red;
     font-size: 12px;
-    margin-top: 4px;
-    display: block;
 }
 
 button {
     width: 100%;
     padding: 12px;
-    background-color: #2563eb;
+    background: #2563eb;
     color: white;
     border: none;
-    border-radius: 6px;
+    border-radius: 8px;
+    margin-top: 10px;
     cursor: pointer;
-    font-size: 16px;
-}
-
-button:hover {
-    background-color: #1e40af;
 }
 
 .success-msg {
     color: green;
     text-align: center;
-    margin-top: 15px;
-    font-weight: bold;
+    margin-top: 10px;
 }
