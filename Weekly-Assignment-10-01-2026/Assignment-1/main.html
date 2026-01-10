@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css"/>
+    <title>Insurance Enquiry and Feedback Form</title>
+</head>
+<body>
+
+<div class="form-container">
+    <h1>Insurance Enquiry & Feedback</h1>
+    <p>Submit your insurance related queries and feedback</p>
+
+    <form id="enquiryForm">
+
+        <div class="field">
+            <label>Full Name</label>
+            <input type="text" id="name" class="input-field">
+            <small class="error"></small>
+        </div>
+
+        <div class="field">
+            <label>Email</label>
+            <input type="email" id="email" class="input-field">
+            <small class="error"></small>
+        </div>
+
+        <div class="field">
+            <label>Mobile Number</label>
+            <input type="tel" id="phone" class="input-field" maxlength="10">
+            <small class="error"></small>
+        </div>
+
+        <div class="field">
+            <label>Request Type</label>
+            <select id="requestType" class="input-field">
+                <option value="">-- Select --</option>
+                <option>Policy Enquiry</option>
+                <option>Claim Related</option>
+                <option>Feedback</option>
+            </select>
+            <small class="error"></small>
+        </div>
+
+        <div class="field">
+            <label>Policy Type</label>
+            <select id="policyType" class="input-field">
+                <option value="">-- Select --</option>
+                <option>Health Insurance</option>
+                <option>Life Insurance</option>
+                <option>Vehicle Insurance</option>
+                <option>Home Insurance</option>
+            </select>
+            <small class="error"></small>
+        </div>
+
+        <div class="field">
+            <label>Message</label>
+            <textarea id="message" rows="4" class="input-field"></textarea>
+            <small class="error"></small>
+        </div>
+
+        <div class="field">
+            <label>Experience Rating</label>
+            <div class="radio-group">
+                <label><input type="radio" name="rating" value="1"> 1</label>
+                <label><input type="radio" name="rating" value="2"> 2</label>
+                <label><input type="radio" name="rating" value="3"> 3</label>
+                <label><input type="radio" name="rating" value="4"> 4</label>
+                <label><input type="radio" name="rating" value="5"> 5</label>
+            </div>
+            <small class="error"></small>
+        </div>
+
+        <button type="submit">Submit</button>
+
+        <p class="success-msg" id="successMsg"></p>
+    </form>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
