@@ -1,4 +1,4 @@
-Question 1 : Loop runs one extra time (i <= customers.length) causing undefined.
+Bug 1 : Loop runs one extra time (i <= customers.length) causing undefined.
 
 Corrected code:
 for (let i = 0; i < customers.length; i++) {
@@ -7,7 +7,7 @@ for (let i = 0; i < customers.length; i++) {
 
 
 
-Question 2 : No return statement inside filter callback.
+Bug 2 : No return statement inside filter callback.
 
 Corrected code:
 const activeCustomers = customers.filter((c) => {
@@ -19,7 +19,7 @@ OR
 const activeCustomers = customers.filter((c) => c.active === true);
 
 
-Question 3 : map() does not return anything Mutates original object (breaks immutability)
+Bug 3 : map() does not return anything Mutates original object (breaks immutability)
 
 Corrected code :
 const updatedPremiums = customers.map((c) => {
@@ -30,7 +30,7 @@ const updatedPremiums = customers.map((c) => {
 });
 
 
-Question 4 : No return inside reduce callback
+Bug 4 : No return inside reduce callback
 
 Corrected code :
 const totalPremium = customers.reduce((total, c) => {
@@ -38,13 +38,13 @@ const totalPremium = customers.reduce((total, c) => {
 }, 0);
 
 
-Question 5 : Uses normal quotes instead of backticks.
+Bug 5 : Uses normal quotes instead of backticks.
 
 Corrected code :
 console.log(`Customer ${customers[0].name} has policy ${customers[0].policy}`);
 
 
-Question 6 : Uses count.policy instead of dynamic key.
+Bug 6 : Uses count.policy instead of dynamic key.
 
 Corrected code :
 const policyCount = customers.reduce((count, c) => {
@@ -54,7 +54,7 @@ const policyCount = customers.reduce((count, c) => {
 
 
 
-Question 7 : Wrong condition chaining
+Bug 7 : Wrong condition chaining
 
 Corrected code :
 const customersWithRisk = customers.map((c) => {
@@ -68,7 +68,7 @@ const customersWithRisk = customers.map((c) => {
 });
 
 
-Question 8 : Using for...in instead of for...of
+Bug 8 : Using for...in instead of for...of
 
 Corrected code:
 let active = 0,
@@ -80,7 +80,7 @@ for (const c of customers) {
 }
 
 
-Question 9 : Arrow function not returning value properly.
+Bug 9 : Arrow function not returning value properly.
 
 Corrected code:
 const getLifeCustomers = () => customers.filter(c => c.policy === "Life").map(c => c.name);
@@ -93,7 +93,7 @@ const getLifeCustomers = () => {
     .map(c => c.name);
 };
 
-Question 10 : sort() mutates original array.
+Bug 10 : sort() mutates original array.
 
 Corrected code:
 const sortedCustomers = [...customers].sort((a, b) => b.premium - a.premium);
