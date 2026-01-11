@@ -10,65 +10,90 @@
 
 <body class="bg-slate-100">
 
-<header class="h-16 bg-blue-600 text-white flex items-center justify-center shadow-lg">
-    <h1 class="text-2xl font-bold">SecureLife Insurance Dashboard</h1>
+<header class="p-4 bg-blue-600 text-white flex items-center justify-start shadow-lg">
+    <h1 class="text-2xl font-bold text-left">SecureLife</h1>
 </header>
 
-<section class="w-full h-screen flex">
-    <div class="flex flex-col justify-center items-center basis-1/2 bg-linear-to-r from-orange-400 to-orange-600 text-white p-10">
-        <h1 class="text-5xl font-bold mb-4">Secure Your Future</h1>
-        <p class="text-lg">Trusted Insurance for Life, Health, Home & Vehicle</p>
+<section class="w-full flex flex-col h-screen justify-evenly items-center">
+    <div class="flex flex-col justify-center items-center gap-6">
+        <h1 class="text-4xl font-bold">Secure Your Future</h1>
+        <p class="text-lg font-medium">Trusted Insurance for Life, Health, Home & Vehicle</p>
     </div>
 
-    <div class="flex justify-center items-center basis-1/2 bg-slate-900 text-white">
-        <div class="grid grid-cols-2 gap-6">
+    <div class="flex justify-center items-center">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div class="stat-card">
                 <h2 id="totalCustomers" class="stat-number">0</h2>
-                <p>Total Customers</p>
+                <p class="text-black">Total Customers</p>
             </div>
             <div class="stat-card">
                 <h2 id="totalPolicies" class="stat-number">0</h2>
-                <p>Total Policies</p>
+                <p class="text-black">Total Policies</p>
             </div>
             <div class="stat-card">
                 <h2 id="totalCoverage" class="stat-number">₹0</h2>
-                <p>Total Coverage</p>
+                <p class="text-black">Total Coverage</p>
             </div>
         </div>
     </div>
 </section>
 
-<section class="max-w-7xl mx-auto py-16 px-8">
-    <h2 class="section-title">Our Insurance Plans</h2>
+<section class="max-w-7xl mx-auto py-12 px-6">
+    
+    <div class="mb-12 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold text-slate-800">
+            Our Insurance Plans
+        </h2>
+        <p class="mt-3 text-slate-500">
+            Choose the plan that fits your needs best
+        </p>
+    </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-10">
-        <div class="plan-card">
-            <h3>Health Insurance</h3>
-            <p>Base Premium: ₹5,000</p>
-            <p>Coverage: ₹5,00,000</p>
-            <button>Enroll Now</button>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+        <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-slate-100">
+            <h3 class="text-xl font-semibold text-slate-800 mb-4">Health Insurance</h3>
+            <div class="space-y-2 text-slate-600">
+                <p><span class="font-medium">Base Premium:</span> ₹5,000</p>
+                <p><span class="font-medium">Coverage:</span> ₹5,00,000</p>
+            </div>
+            <button class="mt-6 w-full bg-blue-600 text-white py-2.5 rounded-xl font-medium hover:bg-blue-700 transition">
+                Enroll Now
+            </button>
         </div>
 
-        <div class="plan-card">
-            <h3>Life Insurance</h3>
-            <p>Base Premium: ₹5,000</p>
-            <p>Coverage: ₹50,00,000</p>
-            <button>Enroll Now</button>
+        <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-slate-100">
+            <h3 class="text-xl font-semibold text-slate-800 mb-4">Life Insurance</h3>
+            <div class="space-y-2 text-slate-600">
+                <p><span class="font-medium">Base Premium:</span> ₹5,000</p>
+                <p><span class="font-medium">Coverage:</span> ₹50,00,000</p>
+            </div>
+            <button class="mt-6 w-full bg-blue-600 text-white py-2.5 rounded-xl font-medium hover:bg-blue-700 transition">
+                Enroll Now
+            </button>
         </div>
 
-        <div class="plan-card">
-            <h3>Home Insurance</h3>
-            <p>Base Premium: ₹2,500</p>
-            <p>Coverage: ₹30,00,000</p>
-            <button>Enroll Now</button>
+        <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-slate-100">
+            <h3 class="text-xl font-semibold text-slate-800 mb-4">Home Insurance</h3>
+            <div class="space-y-2 text-slate-600">
+                <p><span class="font-medium">Base Premium:</span> ₹2,500</p>
+                <p><span class="font-medium">Coverage:</span> ₹30,00,000</p>
+            </div>
+            <button class="mt-6 w-full bg-blue-600 text-white py-2.5 rounded-xl font-medium hover:bg-blue-700 transition">
+                Enroll Now
+            </button>
+        </div>
+        <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-slate-100">
+            <h3 class="text-xl font-semibold text-slate-800 mb-4">Vehicle Insurance</h3>
+            <div class="space-y-2 text-slate-600">
+                <p><span class="font-medium">Base Premium:</span> ₹2,000</p>
+                <p><span class="font-medium">Coverage:</span> ₹1,00,000</p>
+            </div>
+            <button class="mt-6 w-full bg-blue-600 text-white py-2.5 rounded-xl font-medium hover:bg-blue-700 transition">
+                Enroll Now
+            </button>
         </div>
 
-        <div class="plan-card">
-            <h3>Vehicle Insurance</h3>
-            <p>Base Premium: ₹2,000</p>
-            <p>Coverage: ₹1,00,000</p>
-            <button>Enroll Now</button>
-        </div>
     </div>
 </section>
 
@@ -145,7 +170,7 @@
             class="input-field flex-1"
         />
 
-        <select id="policyFilter" class="input-field w-60">
+        <select id="policyFilter" class="input-field flex-1">
             <option value="">All Policies</option>
             <option>Health Insurance</option>
             <option>Life Insurance</option>
