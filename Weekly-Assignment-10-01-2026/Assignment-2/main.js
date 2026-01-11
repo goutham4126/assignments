@@ -1,10 +1,10 @@
 const customers = [
-    { id: 1, name: "Goutham", age: 21, policyType: "Life Insurance", coverage: 5000000, premium: 30000 },
-    { id: 2, name: "Rohit", age: 35, policyType: "Health Insurance", coverage: 500000, premium: 7500 },
-    { id: 3, name: "Sneha", age: 28, policyType: "Vehicle Insurance", coverage: 100000, premium: 2500 },
-    { id: 4, name: "Arjun", age: 48, policyType: "Home Insurance", coverage: 3000000, premium: 18000 },
-    { id: 5, name: "Priya", age: 42, policyType: "Life Insurance", coverage: 5000000, premium: 30000 },
-    { id: 6, name: "Karthik", age: 31, policyType: "Health Insurance", coverage: 500000, premium: 7500 }
+    { id: 1, name: "Goutham", age: 21, policyType: "Life Insurance", coverage: 5000000, premium: 30000, active:true },
+    { id: 2, name: "Rohit", age: 35, policyType: "Health Insurance", coverage: 500000, premium: 7500, active:true },
+    { id: 3, name: "Sneha", age: 28, policyType: "Vehicle Insurance", coverage: 100000, premium: 2500,active:true },
+    { id: 4, name: "Arjun", age: 48, policyType: "Home Insurance", coverage: 3000000, premium: 18000,active:false },
+    { id: 5, name: "Priya", age: 42, policyType: "Life Insurance", coverage: 5000000, premium: 30000,active:true },
+    { id: 6, name: "Karthik", age: 31, policyType: "Health Insurance", coverage: 500000, premium: 7500,active:false }
 ];
 
 const form = document.getElementById("enquiryForm");
