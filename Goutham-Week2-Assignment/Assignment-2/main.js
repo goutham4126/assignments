@@ -21,10 +21,14 @@ const policyFilter = document.getElementById("policyFilter");
 function calculatePremium(age, policyType, coverage) {
     let base = 0;
 
-    if (policyType === "Health Insurance") base = 3000;
-    if (policyType === "Life Insurance") base = 5000;
-    if (policyType === "Vehicle Insurance") base = 2000;
-    if (policyType === "Home Insurance") base = 2500;
+    if (policyType === "Health Insurance") 
+        base = 3000;
+    else if (policyType === "Life Insurance") 
+        base = 5000;
+    else if (policyType === "Vehicle Insurance") 
+        base = 2000;
+    else 
+        base = 2500;
 
     if (age > 45) base += base * 0.2;
     base += Math.floor(coverage / 100000) * 500;
@@ -39,11 +43,11 @@ function renderTable(list) {
         const row = document.createElement("tr");
 
         row.innerHTML = `
-            <td class="border px-2">${c.name}</td>
-            <td class="border px-2">${c.age}</td>
-            <td class="border px-2">${c.policyType}</td>
-            <td class="border px-2">₹${c.coverage.toLocaleString("en-IN")}</td>
-            <td class="border px-2">₹${c.premium.toLocaleString("en-IN")}</td>
+            <td class="border px-2 py-3">${c.name}</td>
+            <td class="border px-2 py-3">${c.age}</td>
+            <td class="border px-2 py-3">${c.policyType}</td>
+            <td class="border px-2 py-3">₹${c.coverage.toLocaleString("en-IN")}</td>
+            <td class="border px-2 py-3">₹${c.premium.toLocaleString("en-IN")}</td>
         `;
 
         tableBody.appendChild(row);
@@ -98,21 +102,53 @@ form.addEventListener("submit", function(e) {
 
     let isValid = true;
 
-    if (name.value.trim() === "") { showError(name, "Name required"); isValid = false; }
-    if (age.value.trim() === "" || age.value <= 0) { showError(age, "Valid age required"); isValid = false; }
-    if (email.value.trim() === "") { showError(email, "Email required"); isValid = false; }
-    if (!/^\d{10}$/.test(phone.value)) { showError(phone, "Mobile must be 10 digits"); isValid = false; }
-    if (requestType.value === "") { showError(requestType, "Select request type"); isValid = false; }
-    if (policyType.value === "") { showError(policyType, "Select policy type"); isValid = false; }
-    if (message.value.trim().length < 10) { showError(message, "Minimum 10 characters"); isValid = false; }
+    if (name.value.trim() === "") 
+    { 
+        showError(name, "Name required"); 
+        isValid = false;
+    }
+    if (age.value.trim() === "" || age.value <= 0) 
+    { 
+        showError(age, "Valid age required"); 
+        isValid = false;
+    }
+    if (email.value.trim() === "")
+    { 
+        showError(email, "Email required"); 
+        isValid = false; 
+    }
+    if (!/^\d{10}$/.test(phone.value)) 
+    { 
+        showError(phone, "Mobile must be 10 digits"); 
+        isValid = false; 
+    }
+    if (requestType.value === "") 
+    { 
+        showError(requestType, "Select request type"); 
+        isValid = false; 
+    }
+    if (policyType.value === "") 
+    { 
+        showError(policyType, "Select policy type"); 
+        isValid = false; 
+    }
+    if (message.value.trim().length < 10) 
+    { 
+        showError(message, "Minimum 10 characters"); 
+        isValid = false;
+    }
 
     if (!isValid) return;
 
     let coverage = 0;
-    if (policyType.value === "Health Insurance") coverage = 500000;
-    if (policyType.value === "Vehicle Insurance") coverage = 100000;
-    if (policyType.value === "Life Insurance") coverage = 5000000;
-    if (policyType.value === "Home Insurance") coverage = 3000000;
+    if (policyType.value === "Health Insurance") 
+        coverage = 500000;
+    else if (policyType.value === "Vehicle Insurance") 
+        coverage = 100000;
+    else if (policyType.value === "Life Insurance") 
+        coverage = 5000000;
+    else 
+        coverage = 3000000;
 
     const premium = calculatePremium(parseInt(age.value), policyType.value, coverage);
 
