@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+
+    </style>
+</head>
+<body class="flex flex-col justify-center items-center h-screen gap-5">
+    <div class="flex justify-center gap-5">
+        <h1 class="bg-slate-300 py-2 px-3 rounded-lg">Player One (O)</h1>
+        <h1 class="bg-slate-300 py-2 px-3 rounded-lg">Player Two (X)</h1>
+    </div>
+    <div class="flex justify-center">
+        <div>
+            <div onclick="TicTacToe(0,0)" id="box-1" class="flex items-center justify-center h-20 w-20 bg-red-100 border"></div>
+            <div onclick="TicTacToe(0,1)" id="box-2" class="flex items-center justify-center h-20 w-20 bg-red-100 border"></div>
+            <div onclick="TicTacToe(0,2)" id="box-3" class="flex items-center justify-center h-20 w-20 bg-red-100 border"></div>
+        </div>
+        <div>
+            <div onclick="TicTacToe(1,0)" id="box-4" class="flex items-center justify-center h-20 w-20 bg-red-100 border"></div>
+            <div onclick="TicTacToe(1,1)" id="box-5" class="flex items-center justify-center h-20 w-20 bg-red-100 border"></div>
+            <div onclick="TicTacToe(1,2)" id="box-6" class="flex items-center justify-center h-20 w-20 bg-red-100 border"></div>
+        </div>
+        <div>
+            <div onclick="TicTacToe(2,0)" id="box-7" class="flex items-center justify-center h-20 w-20 bg-red-100 border"></div>
+            <div onclick="TicTacToe(2,1)" id="box-8" class="flex items-center justify-center h-20 w-20 bg-red-100 border"></div>
+            <div onclick="TicTacToe(2,2)" id="box-9" class="flex items-center justify-center h-20 w-20 bg-red-100 border"></div>
+        </div>
+    </div>
+
+    <button type="reset" onclick="Reset()" class="bg-blue-700 text-white px-5 py-2 rounded-lg"> Reset </button>
+
+    <script src="./main.js"></script>
+</body>
+</html>
