@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bubbling example</h1>
+    <div id="paymentSection" onclick="DivClick()">
+        <button id="payment" onclick="ButtonClick()">Pay Premium</button>
+    </div>
+
+
+    <h1>Capturing example</h1>
+    <div id="container">
+        <button id="viewPolicy">View Policy</button>
+    </div>
+
+
+    <h1>Stop propogation</h1>
+    <div class="card" id="policyCard">
+        <h3>Health Policy</h3>
+        <button id="deleteBtn">Delete</button>
+    </div>
+
+
+    <div class="claim-row">
+        <button class="approve-btn">Approve</button>
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
