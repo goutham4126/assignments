@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Post Manager</title>
+</head>
+
+<body class="bg-gradient-to-br from-gray-100 to-gray-200 min-h-screen">
+
+    <div class="max-w-6xl mx-auto p-6 space-y-10">
+
+        <div class="text-center">
+            <h1 class="text-4xl font-bold text-gray-800">Post Manager</h1>
+            <p class="text-gray-500 mt-2">Manage posts using REST API</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+
+            <div class="bg-white shadow-lg rounded-xl p-6">
+                <h2 class="text-2xl font-semibold mb-4 text-green-600">Add New Post</h2>
+                <form id="formData" class="space-y-4">
+
+                    <input type="text" placeholder="User Id" id="addUserId"
+                        class="w-full border p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"/>
+
+                    <input type="text" placeholder="Title" id="addTitle"
+                        class="w-full border p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"/>
+
+                    <textarea placeholder="Body" id="addBody" rows="4"
+                        class="w-full border p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"></textarea>
+
+                    <button type="submit"
+                        class="w-full bg-green-600 text-white py-3 rounded-lg hover:bg-green-700 transition">
+                        Submit Post
+                    </button>
+                </form>
+            </div>
+
+            <div class="bg-white shadow-lg rounded-xl p-6">
+                <h2 class="text-2xl font-semibold mb-4 text-yellow-600">Update / Patch Post</h2>
+                <form id="UpdateFormData" class="space-y-4">
+
+                    <input type="text" placeholder="Post Id" id="updateId"
+                        class="w-full border p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500"/>
+
+                    <input type="text" placeholder="User Id" id="updateUserId"
+                        class="w-full border p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500"/>
+
+                    <input type="text" placeholder="Title" id="updateTitle"
+                        class="w-full border p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500"/>
+
+                    <textarea placeholder="Body" id="updateBody" rows="4"
+                        class="w-full border p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500"></textarea>
+
+                    <button type="submit"
+                        class="w-full bg-yellow-500 text-white py-3 rounded-lg hover:bg-yellow-600 transition">
+                        Update Post
+                    </button>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="bg-white shadow-lg rounded-xl p-6">
+
+            <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-6">
+                <h2 class="text-2xl font-semibold text-blue-600 mb-4 md:mb-0">All Posts</h2>
+                <button onclick="fetchAllPosts()" 
+                    class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
+                    Fetch All Posts
+                </button>
+            </div>
+
+            <div class="overflow-x-auto">
+                <table class="w-full border rounded-lg overflow-hidden">
+                    <thead class="bg-blue-50">
+                        <tr>
+                            <th class="p-4 text-left border">ID</th>
+                            <th class="p-4 text-left border">Title</th>
+                            <th class="p-4 text-left border">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablebody" class="divide-y"></tbody>
+                </table>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
