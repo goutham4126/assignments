@@ -1,0 +1,98 @@
+<!--TASK-1-->
+if(name=="")
+
+=== should be present
+
+<!--TASK-2-->
+color: blue;
+
+colon missing 
+
+
+<!--TASK-3-->
+document.getElementById("btn").onclick = function ()
+
+d small letter
+
+<!--TASK_4-->
+if (age >= 18) 
+
+=18 age not present
+
+<!--TASK-5-->
+let email = document.getElementById("email").value;
+
+.value not present
+
+<!--TASK-6-->
+width: 300px;
+
+px should be present
+
+<!--TASK-7-->
+let confirmPwd = "admin123";
+if(pwd.trim()===confirmPwd.trim())
+
+.trim() should be present
+
+<!--TASK-8-->
+display: none;
+
+visibility hidden will give space
+
+
+<!--TASK-9-->
+console.log("End");
+
+" missing
+
+
+<!--TASK-10-->
+let terms = document.getElementById("terms");
+
+missing document object
+
+<!--TASK-11-->
+if (mobile.length === 10) 
+
+=== missing
+
+
+<!--TASK-12-->
+let name = document.getElementById("policyName").value;
+
+.value missing
+
+
+<!--TASK-13-->
+if (plan === "Select Plan")
+
+=== missing
+
+<!--TASK-14-->
+document.getElementById("policy").innerHTML = policyNumber;
+
+policyno name wrong
+
+<!--TASK-15-->
+if (isNaN(claimAmount)) 
+
+! should not be present
+
+
+<!--TASK-16-->
+if (policyType.toLowerCase() === "Health")
+
+Health should be present not health
+
+
+<!--TASK-17-->
+document.getElementById("list").innerHTML += `<li>${policy}</li>`;
+
+should use <li> tag
+
+
+<!--TASK_18-->
+if (!isNaN(premium)) 
+
+! should be present
