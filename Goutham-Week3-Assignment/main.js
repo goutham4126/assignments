@@ -27,7 +27,7 @@ function displayUsers(users) {
   container.innerHTML = "";
 
   users.forEach(user => {
-    const lowBalanceClass = user.balance < 5000 ? "border-2 border-red-500" : "";
+    const lowBalanceClass = Number(user.balance) <= 5000 ? "border-2 border-red-500" : "";
 
     container.innerHTML += `
       <div class="bg-white shadow p-4 rounded mb-3 ${lowBalanceClass}">
@@ -35,7 +35,12 @@ function displayUsers(users) {
         <p><b>Name:</b> ${user.name}</p>
         <p><b>Email:</b> ${user.email}</p>
         <p><b>Branch:</b> ${user.branch}</p>
-        <p><b>Balance:</b> ₹${user.balance}</p>
+
+        ${
+          Number(user.balance) <= 5000
+            ? `<p class="text-red-600"><b>Balance:</b> ₹${user.balance}</p>`
+            : `<p><b>Balance:</b> ₹${user.balance}</p>`
+        }
 
         <div class="flex gap-2 mt-2">
           <button onclick="deposit(${user.id})" class="bg-green-600 text-white px-3 py-1 rounded">Deposit</button>
@@ -43,11 +48,14 @@ function displayUsers(users) {
           <button onclick="deleteAccount(${user.id})" class="bg-red-600 text-white px-3 py-1 rounded">Delete</button>
         </div>
 
-        <button onclick="viewHistory(${user.id})" class="mt-2 text-blue-600 underline">View Transactions</button>
+        <button onclick="viewHistory(${user.id})" class="mt-2 text-blue-600 underline">
+          View Transactions
+        </button>
       </div>
     `;
   });
 }
+
 
 function deposit(id) {
   const amount = Number(prompt("Enter deposit amount:"));
@@ -64,10 +72,7 @@ function withdraw(id) {
   const amount = Number(prompt("Enter withdrawal amount:"));
   const user = allUsers.find(u => u.id === id);
 
-  if (user.balance - amount < 5000) {
-    alert("Minimum balance ₹5000 required. ₹200 penalty applied!");
-    user.balance -= 200;
-  } else {
+  if (user.balance >= amount) {
     user.balance -= amount;
     user.transactions.push({ type: "Withdraw", amount, date: new Date().toLocaleString() });
   }
