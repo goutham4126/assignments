@@ -1,0 +1,10 @@
+<div class="profiles-container my-20">
+
+  @for (profile of insuranceProfiles; track profile.name) {
+    <div class="profile-card flex flex-col justify-center items-center">
+      <img [src]="profile.image" alt="{{ profile.name }}" />
+      <h3>{{ profile.name }}</h3>
+    </div>
+  }
+
+</div>

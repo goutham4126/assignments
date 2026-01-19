@@ -1,0 +1,12 @@
+<!-- component->dom -->
+<p>Hello people, i am {{name}}</p>
+
+<!-- component->dom -->
+<img alt="test image" [src]="imageUrl" class="w-80"/>
+
+<!-- dom->component -->
+<button (click)="showMessage()" class="bg-blue-400 rounded-lg px-4 py-2">Click me</button>
+
+<!-- 2 way -->
+<input type="text" [(ngModel)]="username" />
+<p>Your message is: {{ username }}</p>
