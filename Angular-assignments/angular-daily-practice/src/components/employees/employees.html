@@ -1,0 +1,10 @@
+<div class="flex justify-evenly">
+@for(employee of employees; track employee.id)
+{
+    <div class="bg-cyan-50 p-4 rounded-lg">
+        <img [src]="employee.imageUrl"/>
+        <p>{{employee.id}}</p>
+        <p>{{employee.dateOfJoining | date}}</p>
+    </div>
+}
+</div>
