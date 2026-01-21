@@ -1,6 +1,4 @@
-<!-- <button (click)="loadTodos()">Load Todos</button> -->
-
-@for(todo of todos; track todo.id)
+@for(post of posts(); track post.id)
 {
-    <p>{{todo.id}}</p>
+     <p>{{post.id}}</p>
 }

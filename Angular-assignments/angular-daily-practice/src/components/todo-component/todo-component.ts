@@ -1,25 +1,17 @@
-import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
+import { Component, OnInit, signal, inject } from '@angular/core';
 import { TodoService } from '../../app/services/todo-service';
 
 @Component({
-  selector: 'app-todo-component',
-  templateUrl: './todo-component.html',
-  styleUrl: './todo-component.css',
+    selector: 'app-todo-component',
+    templateUrl: './todo-component.html',
+    styleUrls: ['./todo-component.css']
 })
 export class TodoComponent implements OnInit {
+    posts = signal<any[]>([]);
 
-  todos: any[] = [];
+    private todoService = inject(TodoService);
 
-  constructor(private todoService: TodoService,private cdr: ChangeDetectorRef) {}
-
-  ngOnInit() {
-    this.loadTodos();
-  }
-
-  loadTodos() {
-    this.todoService.getTodos().subscribe(res => {
-      this.todos = res;
-      this.cdr.detectChanges();
-    });
-  }
+    ngOnInit() {
+        this.todoService.getPosts().subscribe(data =>this.posts.set(data));
+    }
 }
