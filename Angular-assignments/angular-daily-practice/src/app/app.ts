@@ -1,13 +1,14 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { TodoComponent } from '../components/todo-component/todo-component';
 // import { Employees } from '../components/employees/employees';
 // import { Test } from '../components/test/test';
 // import { Formdemo } from '../components/formdemo/formdemo';
-import { Pipesdemo } from '../components/pipesdemo/pipesdemo';
+// import { Pipesdemo } from '../components/pipesdemo/pipesdemo';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,Pipesdemo],
+  imports: [RouterOutlet,TodoComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
