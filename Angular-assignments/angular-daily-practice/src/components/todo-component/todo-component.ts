@@ -8,20 +8,28 @@ import { ChangeDetectorRef } from '@angular/core';
     styleUrls: ['./todo-component.css']
 })
 export class TodoComponent implements OnInit {
-    // posts = signal<any[]>([]);
-    posts:any[]=[]
+    posts = signal<any[]>([]);
+    // posts:any[]=[]
 
-    // private todoService = inject(TodoService);
+    private todoService = inject(TodoService);
 
-    constructor(private todoService:TodoService,private cdr:ChangeDetectorRef){}
+    // constructor(private todoService:TodoService,private cdr:ChangeDetectorRef){}
 
     ngOnInit() {
-        // this.todoService.getPosts().subscribe(data =>this.posts.set(data));
-        this.todoService.getPosts().subscribe((data)=>
-            {
-                this.posts=data;
-                this.cdr.detectChanges();
-            }
-        )
+        this.todoService.getPosts().subscribe(data =>this.posts.set(data));
+        // this.todoService.getPosts().subscribe((data)=>
+        //     {
+        //         this.posts=data;
+        //         this.cdr.detectChanges();
+        //     }
+        // )
     }
+
+    DeletePost(id: number) {
+        this.todoService.deletePosts(id).subscribe(() => {
+            this.posts.set(this.posts().filter(post => post.id !== id));
+        });
+    }
+
+
 }

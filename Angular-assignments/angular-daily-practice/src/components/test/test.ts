@@ -1,4 +1,4 @@
-import { Component, inject, Input, input } from '@angular/core';
+import { Component, EventEmitter, inject, Input, input, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Calculator } from '../../app/services/calculator';
 import { MessageService } from '../../app/services/message-service';
@@ -11,7 +11,7 @@ import { MessageService } from '../../app/services/message-service';
 })
 export class Test {
   // Data binding
-
+ 
   // one way binding : 3 types
   // Interpolation
   name:string="Goutham"
@@ -48,4 +48,11 @@ export class Test {
 
   testname = input<string>();
   // @Input() testname!:string;
+
+ 
+  @Output() dataChanged=new EventEmitter<string>();
+  sendDataToParent(data:string)
+  {
+    this.dataChanged.emit(data);
+  }
 }

@@ -1,6 +1,8 @@
-@for(post of posts; track post.id)
-{
-     <p>{{post.id}}</p>
+@for (post of posts(); track post.id) {
+  <div class="flex">
+    <p>{{ post.id }}</p>
+    <button (click)="DeletePost(post.id)">Delete post</button>
+  </div>
 }
 
 <!-- @for(post of posts(); track post.id)
