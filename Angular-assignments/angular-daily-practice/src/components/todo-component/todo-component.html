@@ -1,11 +1,68 @@
-@for (post of posts(); track post.id) {
-  <div class="flex">
-    <p>{{ post.id }}</p>
-    <button (click)="DeletePost(post.id)">Delete post</button>
-  </div>
-}
+<div class="max-w-3xl mx-auto p-6">
 
-<!-- @for(post of posts(); track post.id)
-{
-     <p>{{post.id}}</p>
-} -->
+  <h2 class="text-2xl font-bold mb-4">Customer Management</h2>
+
+  <!-- ---------- ADD CUSTOMER FORM ---------- -->
+  <div class="bg-gray-100 p-4 rounded mb-6">
+    <h3 class="font-semibold mb-2">Add Customer</h3>
+
+    <input class="border p-2 w-full mb-2" placeholder="Name"
+      (input)="newPost.set({...newPost(), name: $any($event.target).value})">
+
+    <input class="border p-2 w-full mb-2" placeholder="Email"
+      (input)="newPost.set({...newPost(), email: $any($event.target).value})">
+
+    <input class="border p-2 w-full mb-2" placeholder="City"
+      (input)="newPost.set({...newPost(), city: $any($event.target).value})">
+
+    <button class="bg-blue-500 text-white px-4 py-2 rounded"
+      (click)="addPost()">
+      Add Customer
+    </button>
+  </div>
+
+  <!-- ---------- CUSTOMER LIST ---------- -->
+  <h3 class="text-xl font-semibold mb-2">Customer List</h3>
+
+  @for (post of posts(); track post.id) {
+    <div class="flex justify-between items-center bg-white shadow p-3 rounded mb-2">
+      <p>
+        <b>{{ post.id }}</b> - {{ post.name }} ({{ post.city }})
+      </p>
+
+      <div class="space-x-2">
+        <button class="bg-yellow-500 text-white px-3 py-1 rounded"
+          (click)="setEdit(post)">
+          Edit
+        </button>
+
+        <button class="bg-red-500 text-white px-3 py-1 rounded"
+          (click)="DeletePost(post.id)">
+          Delete
+        </button>
+      </div>
+    </div>
+  }
+
+  <!-- ---------- EDIT CUSTOMER FORM ---------- -->
+  @if(editPost()) {
+    <div class="bg-green-100 p-4 rounded mt-6">
+      <h3 class="font-semibold mb-2">Edit Customer</h3>
+
+      <input class="border p-2 w-full mb-2"
+        [(ngModel)]="editPost().name">
+
+      <input class="border p-2 w-full mb-2"
+        [(ngModel)]="editPost().email">
+
+      <input class="border p-2 w-full mb-2"
+        [(ngModel)]="editPost().city">
+
+      <button class="bg-green-600 text-white px-4 py-2 rounded"
+        (click)="updatePost()">
+        Update Customer
+      </button>
+    </div>
+  }
+
+</div>
