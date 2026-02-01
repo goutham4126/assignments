@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise4", "Exercise4\Exer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise5", "Exercise5\Exercise5.csproj", "{1DFE233F-DE1A-4615-9CAC-2F4FC5045B88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryCalculator", "SalaryCalculator\SalaryCalculator.csproj", "{E7D9E290-8D7C-41AF-B4D3-E537098C1D84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryDisplay", "SalaryDisplay\SalaryDisplay.csproj", "{83107BCC-03FF-406F-A163-79EE98B7ECB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{1DFE233F-DE1A-4615-9CAC-2F4FC5045B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DFE233F-DE1A-4615-9CAC-2F4FC5045B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DFE233F-DE1A-4615-9CAC-2F4FC5045B88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7D9E290-8D7C-41AF-B4D3-E537098C1D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7D9E290-8D7C-41AF-B4D3-E537098C1D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7D9E290-8D7C-41AF-B4D3-E537098C1D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7D9E290-8D7C-41AF-B4D3-E537098C1D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83107BCC-03FF-406F-A163-79EE98B7ECB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83107BCC-03FF-406F-A163-79EE98B7ECB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83107BCC-03FF-406F-A163-79EE98B7ECB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83107BCC-03FF-406F-A163-79EE98B7ECB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
