@@ -4,6 +4,7 @@ namespace Requirement_3
 {
     public class Program
     {
+        // Method to validate the registration number of a vehicle
         static bool ValidateRegistrationNumber(string registrationNo)
         {
             if (string.IsNullOrWhiteSpace(registrationNo))
@@ -19,6 +20,7 @@ namespace Requirement_3
             Console.WriteLine("Enter the registration number of the vehicle :");
             string registrationNumber = Console.ReadLine();
 
+            // Check if the entered registration number is valid or not
             if (ValidateRegistrationNumber(registrationNumber))
             {
                 Console.WriteLine("Registration number is valid");

@@ -77,7 +77,7 @@ namespace Requirement_5.Models
         }
 
         
-        
+        // Default sort the vehicles based on their weight
         public int CompareTo(Vehicle? other)
         {
             return this.Weight.CompareTo(other.Weight);

@@ -60,13 +60,15 @@ namespace Requirement_6.Models
             return $"Registration No:{RegistrationNo}\nName:{Name}\nType:{Type}\nWeight:{string.Format("{0:0.0}", Weight)}";
         }
 
-        // Override the Equals method to compare two Vehicle objects based on their RegistrationNo and Name properties
+        // Override the Equals method to compare two Vehicle objects
+        // based on their RegistrationNo and Name properties
         public override bool Equals(object? obj)
         {
             Vehicle other = obj as Vehicle;
             return RegistrationNo == other.RegistrationNo && Name == other.Name;
         }
 
+        // Static method to create a Vehicle object from a comma-separated string of details
         public static Vehicle CreateVehicle(string detail)
         {
             string[] vehicleDetails = detail.Split(",");
@@ -75,6 +77,9 @@ namespace Requirement_6.Models
             return vehicle;
         }
 
+        // Static method to count the number of vehicles of each type
+        // in a list of Vehicle objects and return a sorted dictionary
+        // with the type as the key and the count as the value
         public static SortedDictionary<string, int>TypeWiseCount(List<Vehicle>vehicleList)
         {
             SortedDictionary<string, int> typeWiseCount = new SortedDictionary<string, int>();

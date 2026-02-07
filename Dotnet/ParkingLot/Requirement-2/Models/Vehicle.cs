@@ -77,6 +77,7 @@ namespace Requirement_2.Models
         }
 
 
+        // Static method to create a Vehicle object from a comma-separated string of details
         public static Vehicle CreateVehicle(string detail)
         {
             string[] vehicleDetails = detail.Split(",");

@@ -28,7 +28,7 @@ namespace Requirement_2.Models
             _vehicleList = new List<Vehicle>();
         }
 
-        // Add vehicle
+        // Add vehicle to parking lot
         public void AddVehicleToParkingLot(Vehicle vehicle)
         {
             if (vehicle == null)
@@ -41,7 +41,7 @@ namespace Requirement_2.Models
             Console.WriteLine("Vehicle added successfully.");
         }
 
-        // Remove vehicle
+        // Remove vehicle from parking lot
         public bool RemoveVehicleFromParkingLot(string registrationNo)
         {
             for (int i = 0; i < _vehicleList.Count; i++)
@@ -56,7 +56,7 @@ namespace Requirement_2.Models
             return false;
         }
 
-        // Display vehicles
+        // Display vehicles in parking lot  
         public void DisplayVehicles()
         {
             if (_vehicleList.Count == 0)

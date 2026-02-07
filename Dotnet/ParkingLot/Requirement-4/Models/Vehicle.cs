@@ -71,6 +71,7 @@ namespace Requirement_4.Models
             return $"Registration No:{RegistrationNo}\nName:{Name}\nType:{Type}\nWeight:{string.Format("{0:0.0}", Weight)}\nTicket No:{Ticket.TicketNo}";
         }
 
+        // Static method to create a Vehicle object from a comma-separated string of details
         public static Vehicle CreateVehicle(string detail)
         {
             string[] vehicleDetails = detail.Split(",");
@@ -83,6 +84,7 @@ namespace Requirement_4.Models
             return vehicle;
         }
 
+        // static method to display list of all vehicles created so far
         public static List<Vehicle> GetAllVehicles()
         {
             return vehiclesList;

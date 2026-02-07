@@ -14,6 +14,7 @@ namespace Requirement_6
             for(int i=0;i < n; i++)
             {
                 string detail = Console.ReadLine();
+                // Create a Vehicle object using the CreateVehicle method and add it to the list
                 Vehicle vehicle = Vehicle.CreateVehicle(detail);
                 vehicleList.Add(vehicle);
             }
@@ -22,7 +23,8 @@ namespace Requirement_6
 
             Console.WriteLine("Type\t \tNo. of Vehicles");
 
-            foreach(KeyValuePair<string,int> vehicle in vehicles)
+            // Iterate through the SortedDictionary and print the type and count of vehicles
+            foreach (KeyValuePair<string,int> vehicle in vehicles)
             {
                 Console.WriteLine(vehicle.Key+"\t"+vehicle.Value);
             }

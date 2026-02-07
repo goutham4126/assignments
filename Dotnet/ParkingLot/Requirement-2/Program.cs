@@ -6,13 +6,16 @@ namespace Requirement_2
     {
         static void Main(string[] args)
         {
+            // Enter the name of the parking lot
             Console.WriteLine("Enter the name of the parking lot:");
             string parkingLotName = Console.ReadLine();
 
+            // Create a parking lot object with the entered name
             ParkingLot parkingLot = new ParkingLot();
             parkingLot.Name = parkingLotName;
 
 
+            // Display the menu and perform operations based on user choice
             while (true)
             {
                 Console.WriteLine("1. Add Vehicle\n2. Delete Vehicle\n3. Display Vehicles\n4. Exit");
@@ -20,7 +23,8 @@ namespace Requirement_2
                 int choice = Convert.ToInt32(Console.ReadLine());
 
                 switch (choice)
-                { 
+                {
+                    // Add Vehicle
                     case 1:
                         Console.WriteLine("Enter the details of the vehicle:");
                         string detail = Console.ReadLine();
@@ -29,6 +33,7 @@ namespace Requirement_2
 
                     break;
 
+                    // Delete Vehicle
                     case 2:
                         Console.WriteLine("Enter the registration number of the vehicle to be deleted in parking lot:");
                         string registrationNo = Console.ReadLine();
@@ -44,6 +49,7 @@ namespace Requirement_2
 
                     break;
 
+                    // Display Vehicles
                     case 3:
                         parkingLot.DisplayVehicles();
                     break;
