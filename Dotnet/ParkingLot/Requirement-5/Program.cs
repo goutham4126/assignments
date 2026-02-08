@@ -22,22 +22,31 @@ namespace Requirement_5
             }
 
             Console.WriteLine("Enter the type of sort :\n1.Sort by Weight\n2.Sort by parked time");
-            int choice = Convert.ToInt32(Console.ReadLine());
+            try
+            {
+                int choice = Convert.ToInt32(Console.ReadLine());
 
-            // sort the vehicles based on the choice
-            if (choice == 1)
-            {
-                vehicles.Sort();
+                // sort the vehicles based on the choice
+                if (choice == 1)
+                {
+                    vehicles.Sort();
+                }
+                else if (choice == 2)
+                {
+                    vehicles.Sort(new parkedTimeComparer());
+                }
+                else
+                {
+                    Console.WriteLine("Invalid choice");
+                    return;
+                }
             }
-            else if(choice == 2)
+            catch (FormatException)
             {
-                vehicles.Sort(new parkedTimeComparer());
-            }
-            else
-            {
-                Console.WriteLine("Invalid choice");
+                Console.WriteLine("Invalid input");
                 return;
             }
+
 
             // print the sorted list of vehicles
             Console.WriteLine("{0,-15} {1,-10} {2,-12} {3,-7} {4}", "RegistrationNo", "Name", "Type", "Weight", "TicketNo");

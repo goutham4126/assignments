@@ -11,13 +11,23 @@ namespace Requirement_6
 
             List<Vehicle> vehicleList = new List<Vehicle>();
 
-            for(int i=0;i < n; i++)
+            try
             {
-                string detail = Console.ReadLine();
-                // Create a Vehicle object using the CreateVehicle method and add it to the list
-                Vehicle vehicle = Vehicle.CreateVehicle(detail);
-                vehicleList.Add(vehicle);
+                for (int i = 0; i < n; i++)
+                {
+                    string detail = Console.ReadLine();
+                    // Create a Vehicle object using the CreateVehicle method and add it to the list
+                    Vehicle vehicle = Vehicle.CreateVehicle(detail);
+                    vehicleList.Add(vehicle);
+                }
+
             }
+            catch (IndexOutOfRangeException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
+
 
             SortedDictionary<string,int> vehicles= Vehicle.TypeWiseCount(vehicleList);
 
