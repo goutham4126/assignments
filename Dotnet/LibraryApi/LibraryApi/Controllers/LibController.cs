@@ -125,18 +125,20 @@ namespace LibraryApi.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult Update(int id, CreateLibraryDto dto)
+        public IActionResult Update(int id, UpdateLibraryDTO dto)
         {
-            if (!_service.Update(id, dto))
-                return NotFound("Library not found");
-
+            var updatedLib = _service.Update(id, dto);
+            if(updatedLib == null)
+                return NotFound("Library not found");  
+            
             return Ok("Updated successfully");
         }
 
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public IActionResult Delete(DeleteLibraryDTO id)
         {
-            if (!_service.Delete(id))
+            var deletedLib = _service.Delete(id);
+            if(deletedLib == null)
                 return NotFound("Library not found");
 
             return Ok("Deleted successfully");

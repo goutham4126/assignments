@@ -14,7 +14,6 @@ namespace LibraryApi.Services
 
         public List<LibraryDto> GetAll()
         {
-            // lambda expression to convert each Library to LibraryDto
             return libraries.Select(l => new LibraryDto
             {
                 libraryId = l.libraryId,
@@ -55,24 +54,31 @@ namespace LibraryApi.Services
             };
         }
 
-        public bool Update(int id, CreateLibraryDto dto)
+        public LibraryDto Update(int id, UpdateLibraryDTO dto)
         {
             var lib = libraries.FirstOrDefault(l => l.libraryId == id);
-            if (lib == null) return false;
-
+            if (lib == null) return null;
             lib.libraryName = dto.libraryName;
             lib.numberOfBooks = dto.numberOfBooks;
-
-            return true;
+            return new LibraryDto
+            {
+                libraryId = lib.libraryId,
+                libraryName = lib.libraryName,
+                numberOfBooks = lib.numberOfBooks
+            };
         }
 
-        public bool Delete(int id)
+        public LibraryDto Delete(DeleteLibraryDTO id)
         {
-            var lib = libraries.FirstOrDefault(l => l.libraryId == id);
-            if (lib == null) return false;
-
+            var lib = libraries.FirstOrDefault(l => l.libraryId == id.libraryId);
+            if (lib == null) return null;
             libraries.Remove(lib);
-            return true;
+            return new LibraryDto
+            {
+                libraryId = lib.libraryId,
+                libraryName = lib.libraryName,
+                numberOfBooks = lib.numberOfBooks
+            };
         }
     }
 }

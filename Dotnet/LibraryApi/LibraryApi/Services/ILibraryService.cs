@@ -7,7 +7,7 @@ namespace LibraryApi.Services
         List<LibraryDto> GetAll();
         LibraryDto GetById(int id);
         LibraryDto Add(CreateLibraryDto dto);
-        bool Update(int id, CreateLibraryDto dto);
-        bool Delete(int id);
+        LibraryDto Update(int id, UpdateLibraryDTO dto);
+        LibraryDto Delete(DeleteLibraryDTO id);
     }
 }
