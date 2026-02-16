@@ -1,7 +1,8 @@
-using Microsoft.EntityFrameworkCore;
-using ProductsApi.Models;
 
-namespace ProductsApi
+using Microsoft.EntityFrameworkCore;
+using ProductApi.Models;
+
+namespace ProductApi
 {
     public class Program
     {
@@ -15,7 +16,7 @@ namespace ProductsApi
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            builder.Services.AddDbContext<ProductContext>(options => options.UseInMemoryDatabase("ProductList"));
+            builder.Services.AddDbContext<ProductContext>(options => options.UseInMemoryDatabase("productdb"));
 
             var app = builder.Build();
 
