@@ -21,13 +21,11 @@ namespace JwtDemo.Controllers
 
 
         [HttpPost("token")]
-
         public IActionResult GenerateToken()
 
         {
 
             var claims = new[]
-
             {
 
                 new Claim(JwtRegisteredClaimNames.Sub, "testuser"),

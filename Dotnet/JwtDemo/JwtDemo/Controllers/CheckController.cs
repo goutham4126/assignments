@@ -10,7 +10,7 @@ namespace JwtDemo.Controllers
     {
         [HttpGet]
         [Authorize]
-        public IActionResult Get()
+        public IActionResult Get() 
         {
             return Ok(new { value = "This is a protected view" });
         }
