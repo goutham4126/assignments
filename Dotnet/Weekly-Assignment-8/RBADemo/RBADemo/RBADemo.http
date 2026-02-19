@@ -1,0 +1,6 @@
+@RBADemo_HostAddress = http://localhost:5106
+
+GET {{RBADemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
