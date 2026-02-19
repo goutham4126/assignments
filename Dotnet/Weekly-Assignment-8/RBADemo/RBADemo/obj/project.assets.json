@@ -4164,11 +4164,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RBADemo\\RBADemo\\RBADemo.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\RBADemo.csproj",
       "projectName": "RBADemo",
-      "projectPath": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RBADemo\\RBADemo\\RBADemo.csproj",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\RBADemo.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RBADemo\\RBADemo\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
