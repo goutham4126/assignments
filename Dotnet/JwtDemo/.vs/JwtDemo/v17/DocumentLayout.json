@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\JwtDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7DB6D02-07AD-4DB2-A3CA-C351BC4FC067}|JwtDemo\\JwtDemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\jwtdemo\\jwtdemo\\models\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7DB6D02-07AD-4DB2-A3CA-C351BC4FC067}|JwtDemo\\JwtDemo.csproj|solutionrelative:jwtdemo\\models\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7DB6D02-07AD-4DB2-A3CA-C351BC4FC067}|JwtDemo\\JwtDemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\jwtdemo\\jwtdemo\\controllers\\checkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7DB6D02-07AD-4DB2-A3CA-C351BC4FC067}|JwtDemo\\JwtDemo.csproj|solutionrelative:jwtdemo\\controllers\\checkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7DB6D02-07AD-4DB2-A3CA-C351BC4FC067}|JwtDemo\\JwtDemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\jwtdemo\\jwtdemo\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7DB6D02-07AD-4DB2-A3CA-C351BC4FC067}|JwtDemo\\JwtDemo.csproj|solutionrelative:jwtdemo\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7DB6D02-07AD-4DB2-A3CA-C351BC4FC067}|JwtDemo\\JwtDemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\jwtdemo\\jwtdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7DB6D02-07AD-4DB2-A3CA-C351BC4FC067}|JwtDemo\\JwtDemo.csproj|solutionrelative:jwtdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7DB6D02-07AD-4DB2-A3CA-C351BC4FC067}|JwtDemo\\JwtDemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\jwtdemo\\jwtdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B7DB6D02-07AD-4DB2-A3CA-C351BC4FC067}|JwtDemo\\JwtDemo.csproj|solutionrelative:jwtdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CheckController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\JwtDemo\\JwtDemo\\Controllers\\CheckController.cs",
+              "RelativeDocumentMoniker": "JwtDemo\\Controllers\\CheckController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\JwtDemo\\JwtDemo\\Controllers\\CheckController.cs",
+              "RelativeToolTip": "JwtDemo\\Controllers\\CheckController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T11:44:27.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\JwtDemo\\JwtDemo\\Program.cs",
+              "RelativeDocumentMoniker": "JwtDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\JwtDemo\\JwtDemo\\Program.cs",
+              "RelativeToolTip": "JwtDemo\\Program.cs",
+              "ViewState": "AgIAADcAAAAA6DIzMzPrv0QAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T11:43:19.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\JwtDemo\\JwtDemo\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "JwtDemo\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\JwtDemo\\JwtDemo\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "JwtDemo\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABoAAAAQZWZmZqYjwDkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T11:40:07.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\JwtDemo\\JwtDemo\\Models\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "JwtDemo\\Models\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\JwtDemo\\JwtDemo\\Models\\JwtSettings.cs",
+              "RelativeToolTip": "JwtDemo\\Models\\JwtSettings.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwPQcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T11:39:14.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\JwtDemo\\JwtDemo\\appsettings.json",
+              "RelativeDocumentMoniker": "JwtDemo\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\JwtDemo\\JwtDemo\\appsettings.json",
+              "RelativeToolTip": "JwtDemo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-17T11:38:31.168Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

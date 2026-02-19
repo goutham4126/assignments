@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RepoDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2627BD57-72E0-427B-A70D-AEC094A0FCD9}|RepoDemo\\RepoDemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\repodemo\\repodemo\\migrations\\20260218163510_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2627BD57-72E0-427B-A70D-AEC094A0FCD9}|RepoDemo\\RepoDemo.csproj|solutionrelative:repodemo\\migrations\\20260218163510_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2627BD57-72E0-427B-A70D-AEC094A0FCD9}|RepoDemo\\RepoDemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\repodemo\\repodemo\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2627BD57-72E0-427B-A70D-AEC094A0FCD9}|RepoDemo\\RepoDemo.csproj|solutionrelative:repodemo\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2627BD57-72E0-427B-A70D-AEC094A0FCD9}|RepoDemo\\RepoDemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\repodemo\\repodemo\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2627BD57-72E0-427B-A70D-AEC094A0FCD9}|RepoDemo\\RepoDemo.csproj|solutionrelative:repodemo\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2627BD57-72E0-427B-A70D-AEC094A0FCD9}|RepoDemo\\RepoDemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\repodemo\\repodemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2627BD57-72E0-427B-A70D-AEC094A0FCD9}|RepoDemo\\RepoDemo.csproj|solutionrelative:repodemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2627BD57-72E0-427B-A70D-AEC094A0FCD9}|RepoDemo\\RepoDemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\repodemo\\repodemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2627BD57-72E0-427B-A70D-AEC094A0FCD9}|RepoDemo\\RepoDemo.csproj|solutionrelative:repodemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2627BD57-72E0-427B-A70D-AEC094A0FCD9}|RepoDemo\\RepoDemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\repodemo\\repodemo\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2627BD57-72E0-427B-A70D-AEC094A0FCD9}|RepoDemo\\RepoDemo.csproj|solutionrelative:repodemo\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2627BD57-72E0-427B-A70D-AEC094A0FCD9}|RepoDemo\\RepoDemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\repodemo\\repodemo\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2627BD57-72E0-427B-A70D-AEC094A0FCD9}|RepoDemo\\RepoDemo.csproj|solutionrelative:repodemo\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2627BD57-72E0-427B-A70D-AEC094A0FCD9}|RepoDemo\\RepoDemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\repodemo\\repodemo\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2627BD57-72E0-427B-A70D-AEC094A0FCD9}|RepoDemo\\RepoDemo.csproj|solutionrelative:repodemo\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2627BD57-72E0-427B-A70D-AEC094A0FCD9}|RepoDemo\\RepoDemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\repodemo\\repodemo\\data\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2627BD57-72E0-427B-A70D-AEC094A0FCD9}|RepoDemo\\RepoDemo.csproj|solutionrelative:repodemo\\data\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2627BD57-72E0-427B-A70D-AEC094A0FCD9}|RepoDemo\\RepoDemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\repodemo\\repodemo\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2627BD57-72E0-427B-A70D-AEC094A0FCD9}|RepoDemo\\RepoDemo.csproj|solutionrelative:repodemo\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2627BD57-72E0-427B-A70D-AEC094A0FCD9}|RepoDemo\\RepoDemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\repodemo\\repodemo\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2627BD57-72E0-427B-A70D-AEC094A0FCD9}|RepoDemo\\RepoDemo.csproj|solutionrelative:repodemo\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2627BD57-72E0-427B-A70D-AEC094A0FCD9}|RepoDemo\\RepoDemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\repodemo\\repodemo\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2627BD57-72E0-427B-A70D-AEC094A0FCD9}|RepoDemo\\RepoDemo.csproj|solutionrelative:repodemo\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20260218163510_initial.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RepoDemo\\RepoDemo\\Migrations\\20260218163510_initial.cs",
+              "RelativeDocumentMoniker": "RepoDemo\\Migrations\\20260218163510_initial.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RepoDemo\\RepoDemo\\Migrations\\20260218163510_initial.cs",
+              "RelativeToolTip": "RepoDemo\\Migrations\\20260218163510_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T16:35:11.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RepoDemo\\RepoDemo\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "RepoDemo\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RepoDemo\\RepoDemo\\Services\\IAuthService.cs",
+              "RelativeToolTip": "RepoDemo\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T16:29:01.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RepoDemo\\RepoDemo\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "RepoDemo\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RepoDemo\\RepoDemo\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "RepoDemo\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T16:28:29.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RepoDemo\\RepoDemo\\appsettings.json",
+              "RelativeDocumentMoniker": "RepoDemo\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RepoDemo\\RepoDemo\\appsettings.json",
+              "RelativeToolTip": "RepoDemo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-18T16:23:59.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RepoDemo\\RepoDemo\\Program.cs",
+              "RelativeDocumentMoniker": "RepoDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RepoDemo\\RepoDemo\\Program.cs",
+              "RelativeToolTip": "RepoDemo\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAZmZmZiYwwAMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T16:22:56.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RepoDemo\\RepoDemo\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "RepoDemo\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RepoDemo\\RepoDemo\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "RepoDemo\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACYAAAAAZmZmZmYawCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T16:22:16.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RepoDemo\\RepoDemo\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "RepoDemo\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RepoDemo\\RepoDemo\\Services\\AuthService.cs",
+              "RelativeToolTip": "RepoDemo\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T16:21:21.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RepoDemo\\RepoDemo\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "RepoDemo\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RepoDemo\\RepoDemo\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "RepoDemo\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T16:17:34.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RepoDemo\\RepoDemo\\Data\\UserContext.cs",
+              "RelativeDocumentMoniker": "RepoDemo\\Data\\UserContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RepoDemo\\RepoDemo\\Data\\UserContext.cs",
+              "RelativeToolTip": "RepoDemo\\Data\\UserContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T16:14:51.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RepoDemo\\RepoDemo\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "RepoDemo\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RepoDemo\\RepoDemo\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "RepoDemo\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T16:14:21.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RepoDemo\\RepoDemo\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "RepoDemo\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RepoDemo\\RepoDemo\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "RepoDemo\\DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T16:13:47.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RepoDemo\\RepoDemo\\Models\\User.cs",
+              "RelativeDocumentMoniker": "RepoDemo\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\RepoDemo\\RepoDemo\\Models\\User.cs",
+              "RelativeToolTip": "RepoDemo\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T16:12:51.226Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\LibraryApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D17AFEF-E7BA-4EB3-A3BC-448B9EFD7806}|LibraryApi\\LibraryApi.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\libraryapi\\libraryapi\\services\\ilibraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D17AFEF-E7BA-4EB3-A3BC-448B9EFD7806}|LibraryApi\\LibraryApi.csproj|solutionrelative:libraryapi\\services\\ilibraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D17AFEF-E7BA-4EB3-A3BC-448B9EFD7806}|LibraryApi\\LibraryApi.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\libraryapi\\libraryapi\\services\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D17AFEF-E7BA-4EB3-A3BC-448B9EFD7806}|LibraryApi\\LibraryApi.csproj|solutionrelative:libraryapi\\services\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D17AFEF-E7BA-4EB3-A3BC-448B9EFD7806}|LibraryApi\\LibraryApi.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\libraryapi\\libraryapi\\controllers\\libcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D17AFEF-E7BA-4EB3-A3BC-448B9EFD7806}|LibraryApi\\LibraryApi.csproj|solutionrelative:libraryapi\\controllers\\libcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LibraryService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\LibraryApi\\LibraryApi\\Services\\LibraryService.cs",
+              "RelativeDocumentMoniker": "LibraryApi\\Services\\LibraryService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\LibraryApi\\LibraryApi\\Services\\LibraryService.cs",
+              "RelativeToolTip": "LibraryApi\\Services\\LibraryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T05:19:59.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ILibraryService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\LibraryApi\\LibraryApi\\Services\\ILibraryService.cs",
+              "RelativeDocumentMoniker": "LibraryApi\\Services\\ILibraryService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\LibraryApi\\LibraryApi\\Services\\ILibraryService.cs",
+              "RelativeToolTip": "LibraryApi\\Services\\ILibraryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T05:19:48.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LibController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\LibraryApi\\LibraryApi\\Controllers\\LibController.cs",
+              "RelativeDocumentMoniker": "LibraryApi\\Controllers\\LibController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\LibraryApi\\LibraryApi\\Controllers\\LibController.cs",
+              "RelativeToolTip": "LibraryApi\\Controllers\\LibController.cs",
+              "ViewState": "AgIAAH8AAAAAQDMzMzP/v0EAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T17:48:18.292Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

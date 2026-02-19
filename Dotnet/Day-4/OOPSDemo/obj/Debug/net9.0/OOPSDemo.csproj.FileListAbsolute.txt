@@ -1,0 +1,15 @@
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-4\OOPSDemo\bin\Debug\net9.0\OOPSDemo.exe
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-4\OOPSDemo\bin\Debug\net9.0\OOPSDemo.deps.json
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-4\OOPSDemo\bin\Debug\net9.0\OOPSDemo.runtimeconfig.json
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-4\OOPSDemo\bin\Debug\net9.0\OOPSDemo.dll
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-4\OOPSDemo\bin\Debug\net9.0\OOPSDemo.pdb
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-4\OOPSDemo\obj\Debug\net9.0\OOPSDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-4\OOPSDemo\obj\Debug\net9.0\OOPSDemo.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-4\OOPSDemo\obj\Debug\net9.0\OOPSDemo.AssemblyInfo.cs
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-4\OOPSDemo\obj\Debug\net9.0\OOPSDemo.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-4\OOPSDemo\obj\Debug\net9.0\OOPSDemo.sourcelink.json
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-4\OOPSDemo\obj\Debug\net9.0\OOPSDemo.dll
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-4\OOPSDemo\obj\Debug\net9.0\refint\OOPSDemo.dll
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-4\OOPSDemo\obj\Debug\net9.0\OOPSDemo.pdb
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-4\OOPSDemo\obj\Debug\net9.0\OOPSDemo.genruntimeconfig.cache
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-4\OOPSDemo\obj\Debug\net9.0\ref\OOPSDemo.dll

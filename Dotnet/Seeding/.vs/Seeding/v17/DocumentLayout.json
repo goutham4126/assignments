@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Seeding\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{92D21F72-631B-4B6D-AF66-B6AA011ABB39}|Seeding\\Seeding.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\seeding\\seeding\\controllers\\statescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D21F72-631B-4B6D-AF66-B6AA011ABB39}|Seeding\\Seeding.csproj|solutionrelative:seeding\\controllers\\statescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92D21F72-631B-4B6D-AF66-B6AA011ABB39}|Seeding\\Seeding.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\seeding\\seeding\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D21F72-631B-4B6D-AF66-B6AA011ABB39}|Seeding\\Seeding.csproj|solutionrelative:seeding\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92D21F72-631B-4B6D-AF66-B6AA011ABB39}|Seeding\\Seeding.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\seeding\\seeding\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D21F72-631B-4B6D-AF66-B6AA011ABB39}|Seeding\\Seeding.csproj|solutionrelative:seeding\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CountriesController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Seeding\\Seeding\\Controllers\\CountriesController.cs",
+              "RelativeDocumentMoniker": "Seeding\\Controllers\\CountriesController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Seeding\\Seeding\\Controllers\\CountriesController.cs",
+              "RelativeToolTip": "Seeding\\Controllers\\CountriesController.cs",
+              "ViewState": "AgIAABYAAAAAKjMzMzPjvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T07:08:54.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StatesController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Seeding\\Seeding\\Controllers\\StatesController.cs",
+              "RelativeDocumentMoniker": "Seeding\\Controllers\\StatesController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Seeding\\Seeding\\Controllers\\StatesController.cs",
+              "RelativeToolTip": "Seeding\\Controllers\\StatesController.cs",
+              "ViewState": "AgIAAEEAAAAAKTMzM7MYwAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T07:08:08.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CitiesController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Seeding\\Seeding\\Controllers\\CitiesController.cs",
+              "RelativeDocumentMoniker": "Seeding\\Controllers\\CitiesController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Seeding\\Seeding\\Controllers\\CitiesController.cs",
+              "RelativeToolTip": "Seeding\\Controllers\\CitiesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T07:06:07.392Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

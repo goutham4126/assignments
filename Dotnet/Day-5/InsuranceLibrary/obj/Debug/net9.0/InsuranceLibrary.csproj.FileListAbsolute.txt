@@ -1,0 +1,12 @@
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-5\InsuranceLibrary\bin\Debug\net9.0\InsuranceLibrary.deps.json
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-5\InsuranceLibrary\bin\Debug\net9.0\InsuranceLibrary.dll
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-5\InsuranceLibrary\bin\Debug\net9.0\InsuranceLibrary.pdb
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-5\InsuranceLibrary\obj\Debug\net9.0\InsuranceLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-5\InsuranceLibrary\obj\Debug\net9.0\InsuranceLibrary.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-5\InsuranceLibrary\obj\Debug\net9.0\InsuranceLibrary.AssemblyInfo.cs
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-5\InsuranceLibrary\obj\Debug\net9.0\InsuranceLibrary.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-5\InsuranceLibrary\obj\Debug\net9.0\InsuranceLibrary.sourcelink.json
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-5\InsuranceLibrary\obj\Debug\net9.0\InsuranceLibrary.dll
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-5\InsuranceLibrary\obj\Debug\net9.0\refint\InsuranceLibrary.dll
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-5\InsuranceLibrary\obj\Debug\net9.0\InsuranceLibrary.pdb
+C:\Users\DELL\Desktop\Assignments\Dotnet\Day-5\InsuranceLibrary\obj\Debug\net9.0\ref\InsuranceLibrary.dll

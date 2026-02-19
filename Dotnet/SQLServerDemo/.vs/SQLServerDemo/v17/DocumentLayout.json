@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\SQLServerDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C77B19-B0CB-413F-820F-EBB349DF290A}|SQLServerDemo\\SQLServerDemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\sqlserverdemo\\sqlserverdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E5C77B19-B0CB-413F-820F-EBB349DF290A}|SQLServerDemo\\SQLServerDemo.csproj|solutionrelative:sqlserverdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\SQLServerDemo\\SQLServerDemo\\appsettings.json",
+              "RelativeDocumentMoniker": "SQLServerDemo\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\SQLServerDemo\\SQLServerDemo\\appsettings.json",
+              "RelativeToolTip": "SQLServerDemo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-16T10:19:19.207Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+C:\Users\DELL\Desktop\Assignments\Dotnet\practise\practise\bin\Debug\net9.0\practise.exe
+C:\Users\DELL\Desktop\Assignments\Dotnet\practise\practise\bin\Debug\net9.0\practise.deps.json
+C:\Users\DELL\Desktop\Assignments\Dotnet\practise\practise\bin\Debug\net9.0\practise.runtimeconfig.json
+C:\Users\DELL\Desktop\Assignments\Dotnet\practise\practise\bin\Debug\net9.0\practise.dll
+C:\Users\DELL\Desktop\Assignments\Dotnet\practise\practise\bin\Debug\net9.0\practise.pdb
+C:\Users\DELL\Desktop\Assignments\Dotnet\practise\practise\obj\Debug\net9.0\practise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\Assignments\Dotnet\practise\practise\obj\Debug\net9.0\practise.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\Assignments\Dotnet\practise\practise\obj\Debug\net9.0\practise.AssemblyInfo.cs
+C:\Users\DELL\Desktop\Assignments\Dotnet\practise\practise\obj\Debug\net9.0\practise.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Assignments\Dotnet\practise\practise\obj\Debug\net9.0\practise.sourcelink.json
+C:\Users\DELL\Desktop\Assignments\Dotnet\practise\practise\obj\Debug\net9.0\practise.dll
+C:\Users\DELL\Desktop\Assignments\Dotnet\practise\practise\obj\Debug\net9.0\refint\practise.dll
+C:\Users\DELL\Desktop\Assignments\Dotnet\practise\practise\obj\Debug\net9.0\practise.pdb
+C:\Users\DELL\Desktop\Assignments\Dotnet\practise\practise\obj\Debug\net9.0\practise.genruntimeconfig.cache
+C:\Users\DELL\Desktop\Assignments\Dotnet\practise\practise\obj\Debug\net9.0\ref\practise.dll
