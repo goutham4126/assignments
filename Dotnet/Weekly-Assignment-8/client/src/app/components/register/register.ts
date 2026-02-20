@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { Auth } from '../../services/auth';
 import { FormsModule } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-register',
@@ -15,6 +16,7 @@ export class Register {
   role = '';
 
   constructor(private auth: Auth) {}
+  private router = inject(Router);
 
   register() {
     const userData = {
@@ -24,7 +26,8 @@ export class Register {
     };
 
     this.auth.register(userData).subscribe(() => {
-      alert('Customer registered successfully');
+      alert('user registered successfully');
+      this.router.navigate(["/login"]);
     });
   }
 

@@ -1,0 +1,195 @@
+<div class="min-h-screen bg-linear-to-br from-slate-900 via-slate-800 to-slate-900 text-white p-8">
+
+  <!-- Header -->
+  <div class="max-w-7xl mx-auto mb-10">
+    <h2 class="text-4xl font-bold tracking-tight">
+      📦 Manager Dashboard
+    </h2>
+    <p class="text-gray-400 mt-2">Manage products and customer orders</p>
+  </div>
+
+  <!-- ================= PRODUCT FORM ================= -->
+  <div class="max-w-7xl mx-auto bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl p-8 shadow-2xl mb-14">
+
+    <h3 class="text-2xl font-semibold mb-6 text-indigo-400">
+      {{ isEditing() ? 'Edit Product' : 'Add Product' }}
+    </h3>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+      <input [(ngModel)]="formProduct().name"
+        placeholder="Product Name"
+        class="bg-white/10 border border-white/20 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition" />
+
+      <input [(ngModel)]="formProduct().category"
+        placeholder="Category"
+        class="bg-white/10 border border-white/20 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition" />
+
+      <input [(ngModel)]="formProduct().description"
+        placeholder="Description"
+        class="bg-white/10 border border-white/20 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition" />
+
+      <input type="number"
+        [(ngModel)]="formProduct().price"
+        placeholder="Price"
+        class="bg-white/10 border border-white/20 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition" />
+
+    </div>
+
+    <div class="mt-6 flex gap-4">
+
+      <button *ngIf="!isEditing()"
+        (click)="createProduct()"
+        class="bg-linear-to-r from-indigo-500 to-purple-600 px-6 py-2 rounded-xl font-medium hover:scale-[1.03] transition-all duration-300">
+        Create
+      </button>
+
+      <button *ngIf="isEditing()"
+        (click)="updateProduct()"
+        class="bg-green-600 px-6 py-2 rounded-xl font-medium hover:bg-green-700 transition">
+        Update
+      </button>
+
+      <button *ngIf="isEditing()"
+        (click)="resetForm()"
+        class="bg-white/10 border border-white/20 px-6 py-2 rounded-xl hover:bg-white/20 transition">
+        Cancel
+      </button>
+
+    </div>
+
+  </div>
+
+  <!-- ================= PRODUCT LIST ================= -->
+  <div class="max-w-7xl mx-auto mb-16">
+
+    <h3 class="text-2xl font-semibold mb-6 text-indigo-400">
+      Product List
+    </h3>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <div *ngFor="let product of products()"
+           class="bg-white/5 backdrop-blur-md border border-white/10 rounded-3xl p-6 shadow-xl hover:shadow-2xl hover:scale-[1.02] transition-all duration-300">
+
+        <h4 class="text-xl font-semibold mb-2">
+          {{ product.name }}
+        </h4>
+
+        <p class="text-gray-400 text-sm mb-3">
+          {{ product.description }}
+        </p>
+
+        <p class="text-indigo-400 font-bold text-lg mb-4">
+          ₹{{ product.price }}
+        </p>
+
+        <div class="flex gap-2 flex-wrap">
+
+          <button
+            (click)="viewProduct(product.id!)"
+            class="bg-white/10 border border-white/20 px-3 py-1 rounded-lg hover:bg-white/20 transition">
+            View
+          </button>
+
+          <button
+            (click)="editProduct(product)"
+            class="bg-yellow-500 px-3 py-1 rounded-lg hover:bg-yellow-600 transition">
+            Edit
+          </button>
+
+          <button
+            (click)="deleteProduct(product.id!)"
+            class="bg-red-500 px-3 py-1 rounded-lg hover:bg-red-600 transition">
+            Delete
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- ================= ALL ORDERS ================= -->
+  <div class="max-w-7xl mx-auto">
+
+    <!-- Header -->
+    <div class="flex items-center justify-between mb-6">
+      <h3 class="text-2xl font-semibold text-indigo-400">
+        All Customer Orders
+      </h3>
+      <span class="text-sm text-gray-400">
+        Total Orders: {{ allOrders().length }}
+      </span>
+    </div>
+
+    <!-- Table Container -->
+    <div class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl shadow-2xl overflow-hidden">
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-sm text-gray-300">
+
+          <!-- Table Head -->
+          <thead class="bg-white/10 text-gray-400 uppercase text-xs tracking-wider">
+            <tr>
+              <th class="px-6 py-4">Order ID</th>
+              <th class="px-6 py-4">Customer ID</th>
+              <th class="px-6 py-4">Product</th>
+              <th class="px-6 py-4">Quantity</th>
+              <th class="px-6 py-4">Total</th>
+              <th class="px-6 py-4">Date</th>
+            </tr>
+          </thead>
+
+          <!-- Table Body -->
+          <tbody class="divide-y divide-white/10">
+
+            <tr *ngFor="let order of allOrders()"
+                class="hover:bg-indigo-500/10 transition-all duration-300">
+
+              <td class="px-6 py-4 font-medium text-white">
+                #{{ order.id }}
+              </td>
+
+              <td class="px-6 py-4 text-gray-400">
+                {{ order.customerId }}
+              </td>
+
+              <td class="px-6 py-4">
+                {{ order.productName }}
+              </td>
+
+              <td class="px-6 py-4">
+                <span class="px-3 py-1 text-xs rounded-full bg-blue-500/20 text-blue-400 border border-blue-500/30">
+                  {{ order.quantity }}
+                </span>
+              </td>
+
+              <td class="px-6 py-4 font-semibold text-indigo-400">
+                ₹{{ order.totalCost }}
+              </td>
+
+              <td class="px-6 py-4 text-gray-400">
+                {{ order.createdAt }}
+              </td>
+
+            </tr>
+
+          </tbody>
+
+        </table>
+      </div>
+
+    </div>
+
+    <!-- Empty State -->
+    <div *ngIf="allOrders().length === 0"
+        class="mt-6 bg-white/5 border border-white/10 rounded-3xl p-10 text-center text-gray-400">
+      📭 No customer orders found.
+    </div>
+
+  </div>
+
+</div>

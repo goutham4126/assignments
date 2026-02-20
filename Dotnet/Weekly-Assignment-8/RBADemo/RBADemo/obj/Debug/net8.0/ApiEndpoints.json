@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "RBADemo.Controllers.AdminController",
+    "Method": "GetUsers",
+    "RelativePath": "api/Admin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RBADemo.Controllers.AdminController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Admin/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "RBADemo.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
@@ -32,9 +58,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "RBADemo.Controllers.EmployeeController",
-    "Method": "GetAll",
-    "RelativePath": "api/Employee",
+    "ContainingType": "RBADemo.Controllers.ManagerController",
+    "Method": "GetDashboard",
+    "RelativePath": "api/Manager/dashboard",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -42,25 +68,35 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "RBADemo.Controllers.EmployeeController",
-    "Method": "Create",
-    "RelativePath": "api/Employee",
+    "ContainingType": "RBADemo.Controllers.OrderController",
+    "Method": "CreateOrder",
+    "RelativePath": "api/Order",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "RBADemo.DTOs.EmployeeCreateDto",
+        "Type": "RBADemo.DTOs.CreateOrderDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "RBADemo.Controllers.EmployeeController",
-    "Method": "Get",
-    "RelativePath": "api/Employee/{id}",
+    "ContainingType": "RBADemo.Controllers.OrderController",
+    "Method": "GetMyOrders",
+    "RelativePath": "api/Order",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RBADemo.Controllers.OrderController",
+    "Method": "GetOrderById",
+    "RelativePath": "api/Order/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -74,9 +110,61 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "RBADemo.Controllers.EmployeeController",
-    "Method": "Update",
-    "RelativePath": "api/Employee/{id}",
+    "ContainingType": "RBADemo.Controllers.OrderController",
+    "Method": "GetAllOrders",
+    "RelativePath": "api/Order/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RBADemo.Controllers.ProductController",
+    "Method": "GetAllProducts",
+    "RelativePath": "api/Product",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RBADemo.Controllers.ProductController",
+    "Method": "CreateProduct",
+    "RelativePath": "api/Product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "RBADemo.Models.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RBADemo.Controllers.ProductController",
+    "Method": "GetProductById",
+    "RelativePath": "api/Product/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RBADemo.Controllers.ProductController",
+    "Method": "EditProduct",
+    "RelativePath": "api/Product/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -87,17 +175,17 @@
         "IsRequired": true
       },
       {
-        "Name": "dto",
-        "Type": "RBADemo.DTOs.EmployeeUpdateDto",
+        "Name": "productDto",
+        "Type": "RBADemo.DTOs.ProductDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "RBADemo.Controllers.EmployeeController",
-    "Method": "Delete",
-    "RelativePath": "api/Employee/{id}",
+    "ContainingType": "RBADemo.Controllers.ProductController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/Product/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -109,57 +197,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "RBADemo.Controllers.UserController",
-    "Method": "GetUsers",
-    "RelativePath": "api/User",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "RBADemo.Controllers.UserController",
-    "Method": "SetRole",
-    "RelativePath": "api/User/{id}/role",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "role",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "RBADemo.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[RBADemo.WeatherForecast, RBADemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
   }
 ]

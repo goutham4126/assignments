@@ -8,6 +8,6 @@ namespace RBADemo.Models
 
         [Required] public string Username { get; set; } = null!;
         [Required] public string PasswordHash { get; set; } = null!;
-        [Required] public string Role { get; set; } = "User"; // e.g. "Admin", "Manager", "User"
+        [Required] public string Role { get; set; } = "Customer"; // e.g. "Admin", "Manager", "Customer"
     }
 }

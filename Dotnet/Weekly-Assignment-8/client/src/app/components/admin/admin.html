@@ -1,0 +1,56 @@
+<div class="min-h-screen bg-linear-to-br from-slate-900 via-slate-800 to-slate-900 p-8">
+
+  <!-- Page Header -->
+  <div class="max-w-5xl mx-auto mb-8">
+    <h2 class="text-3xl font-semibold text-white">User Management</h2>
+    <p class="text-gray-400 text-sm mt-1">Manage all registered users</p>
+  </div>
+
+  <div class="max-w-5xl mx-auto space-y-6">
+
+    <!-- Loading State -->
+    @if (loading()) {
+      <div class="flex items-center gap-3 text-indigo-400 animate-pulse">
+        <div class="h-4 w-4 rounded-full bg-indigo-500"></div>
+        <p>Loading users...</p>
+      </div>
+    }
+
+    <!-- Error State -->
+    @if (error()) {
+      <div class="bg-red-500/10 border border-red-500/30 text-red-400 px-4 py-3 rounded-xl">
+        {{ error() }}
+      </div>
+    }
+
+    <!-- Users List -->
+    @for (user of users(); track user.id) {
+      <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 shadow-lg hover:shadow-xl hover:scale-[1.01] transition-all duration-300 flex items-center justify-between">
+
+        <!-- User Info -->
+        <div class="space-y-1">
+          <p class="text-lg font-medium text-white">
+            {{ user.username }}
+          </p>
+          <p class="text-sm text-gray-400">
+            Role:
+            <span class="text-indigo-400 font-medium">
+              {{ user.role }}
+            </span>
+          </p>
+        </div>
+
+        <!-- Delete Button -->
+        <button
+          (click)="onClick(user.id)"
+          class="bg-red-500/20 text-red-400 border border-red-500/40 px-4 py-2 rounded-xl font-medium hover:bg-red-500 hover:text-white transition-all duration-300"
+        >
+          Delete
+        </button>
+
+      </div>
+    }
+
+  </div>
+
+</div>
