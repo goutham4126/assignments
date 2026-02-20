@@ -78,8 +78,7 @@
               "RelativeToolTip": "RBADemo\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T09:41:35.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T09:41:35.797Z"
             },
             {
               "$type": "Document",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "RBADemo\\DTOs\\OrderDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T09:40:12.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T09:40:12.396Z"
             },
             {
               "$type": "Document",
@@ -102,7 +100,7 @@
               "RelativeDocumentMoniker": "RBADemo\\Controllers\\OrderController.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\Controllers\\OrderController.cs",
               "RelativeToolTip": "RBADemo\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAiwGIAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T09:38:51.221Z",
               "EditorCaption": ""
@@ -117,8 +115,7 @@
               "RelativeToolTip": "RBADemo\\Models\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T09:34:32.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T09:34:32.974Z"
             },
             {
               "$type": "Document",
@@ -130,8 +127,7 @@
               "RelativeToolTip": "RBADemo\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T09:17:39.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T09:17:39.644Z"
             },
             {
               "$type": "Document",
@@ -143,8 +139,7 @@
               "RelativeToolTip": "RBADemo\\DTOs\\ProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T09:00:44.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T09:00:44.867Z"
             },
             {
               "$type": "Document",
@@ -156,8 +151,7 @@
               "RelativeToolTip": "RBADemo\\Models\\Product.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T08:59:57.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T08:59:57.768Z"
             },
             {
               "$type": "Document",
@@ -169,8 +163,7 @@
               "RelativeToolTip": "RBADemo\\Controllers\\AdminController.cs",
               "ViewState": "AgIAAA0AAABgMjMzMzMvwBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T08:58:04.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T08:58:04.392Z"
             },
             {
               "$type": "Document",
@@ -182,8 +175,7 @@
               "RelativeToolTip": "RBADemo\\Controllers\\ManagerController.cs",
               "ViewState": "AgIAABIAAACAZmZmZmYswBoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T08:58:02.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T08:58:02.919Z"
             },
             {
               "$type": "Document",
@@ -195,8 +187,7 @@
               "RelativeToolTip": "RBADemo\\Controllers\\CustomerController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T08:58:00.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T08:58:00.761Z"
             },
             {
               "$type": "Document",
@@ -208,8 +199,7 @@
               "RelativeToolTip": "RBADemo\\DTOs\\AuthDtos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T08:51:09.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T08:51:09.317Z"
             },
             {
               "$type": "Document",
@@ -221,8 +211,7 @@
               "RelativeToolTip": "RBADemo\\Program.cs",
               "ViewState": "AgIAAEQAAAAAx8zMzEwfwDYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T06:58:56.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T06:58:56.018Z"
             },
             {
               "$type": "Document",
@@ -234,8 +223,7 @@
               "RelativeToolTip": "RBADemo\\Services\\JWTService.cs",
               "ViewState": "AgIAABEAAADAmpmZmdkkwB4AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T06:25:06.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T06:25:06.383Z"
             }
           ]
         }
