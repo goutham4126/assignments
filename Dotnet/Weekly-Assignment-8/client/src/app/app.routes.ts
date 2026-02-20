@@ -6,6 +6,7 @@ import { Admin } from './components/admin/admin';
 import { Manager } from './components/manager/manager';
 import { Customer } from './components/customer/customer';
 import { RoleGuard } from './guards/role-guard';
+import { AuthGuard } from './guards/auth-guard';
 
 export const routes: Routes = [
     {
@@ -23,19 +24,19 @@ export const routes: Routes = [
     {
         path : "admin/dashboard",
         component: Admin,
-        canActivate: [RoleGuard],
+        canActivate: [AuthGuard, RoleGuard],
         data: { roles: ['Admin'] }
     },
     {
         path: "manager/dashboard",
         component: Manager,
-        canActivate: [RoleGuard],
+        canActivate: [AuthGuard, RoleGuard],
         data: { roles: ['Manager'] }
     },
     {
         path: "customer/dashboard",
         component: Customer,
-        canActivate: [RoleGuard],
+        canActivate: [AuthGuard, RoleGuard],
         data: { roles: ['Customer'] }
     },
     { 
