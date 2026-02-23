@@ -18,14 +18,53 @@ public class AuthController : ControllerBase
     [HttpPost("register")]
     public async Task<IActionResult> Register(RegisterDto dto)
     {
-        var result = await _authService.Register(dto);
-        return Ok(result);
+        try
+        {
+            var result = await _authService.Register(dto);
+            return Ok(result);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+
+            // Return proper error response
+            return BadRequest(new
+            {
+                message = ex.Message
+            });
+        }
     }
 
     [HttpPost("login")]
     public async Task<IActionResult> Login(LoginDto dto)
     {
-        var result = await _authService.Login(dto);
-        return Ok(result);
+        try
+        {
+            var result = await _authService.Login(dto);
+            return Ok(result);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+
+            return Unauthorized(new
+            {
+                message = ex.Message
+            });
+        }
+    }
+
+    [HttpPost("forgot-password")]
+    public async Task<IActionResult> ForgotPassword(ForgotPasswordDto dto)
+    {
+        await _authService.ForgotPassword(dto);
+        return Ok("Password reset link sent");
+    }
+
+    [HttpPost("reset-password")]
+    public async Task<IActionResult> ResetPassword(ResetPasswordDto dto)
+    {
+        await _authService.ResetPassword(dto);
+        return Ok("Password reset successful");
     }
 }

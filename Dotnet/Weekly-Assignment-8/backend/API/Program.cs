@@ -1,5 +1,6 @@
 using Application.Interfaces;
 using Application.Services;
+using Backend.Application.Interfaces;
 using Backend.Application.Services;
 using Backend.Infrastructure.Services;
 using Infrastructure.Data;
@@ -35,6 +36,7 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<IJwtService, JwtService>();
+builder.Services.AddScoped<IEmailService, EmailService>();
 
 // =============================
 // Application Services

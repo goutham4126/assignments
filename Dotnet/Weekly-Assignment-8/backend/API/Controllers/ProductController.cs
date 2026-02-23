@@ -19,8 +19,16 @@ public class ProductController : ControllerBase
     [HttpGet]
     public async Task<IActionResult> GetAll()
     {
-        var products = await _productService.GetAllAsync();
-        return Ok(products);
+        try
+        {
+            var products = await _productService.GetAllAsync();
+            return Ok(products);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+            return StatusCode(500, new { message = "Something went wrong." });
+        }
     }
 
     [HttpGet("{id}")]
@@ -38,8 +46,16 @@ public class ProductController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> Create(ProductDto dto)
     {
-        await _productService.CreateAsync(dto);
-        return Ok("Product created successfully");
+        try
+        {
+            await _productService.CreateAsync(dto);
+            return Ok("Product created successfully");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+            return BadRequest(new { message = ex.Message });
+        }
     }
 
     [Authorize(Roles = "Manager")]

@@ -26,20 +26,36 @@ public class OrderController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> CreateOrder(CreateOrderDto dto)
     {
-        var userId = GetUserId();
-        await _orderService.CreateOrderAsync(dto, userId);
+        try
+        {
+            var userId = GetUserId();
+            await _orderService.CreateOrderAsync(dto, userId);
 
-        return Ok("Order created successfully");
+            return Ok("Order created successfully");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+            return BadRequest(new { message = ex.Message });
+        }
     }
 
     [Authorize(Roles = "Customer")]
     [HttpGet("my-orders")]
     public async Task<IActionResult> GetMyOrders()
     {
-        var userId = GetUserId();
-        var orders = await _orderService.GetCustomerOrdersAsync(userId);
+        try
+        {
+            var userId = GetUserId();
+            var orders = await _orderService.GetCustomerOrdersAsync(userId);
 
-        return Ok(orders);
+            return Ok(orders);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+            return StatusCode(500, new { message = "Failed to load orders." });
+        }
     }
 
     [Authorize(Roles = "Manager")]
