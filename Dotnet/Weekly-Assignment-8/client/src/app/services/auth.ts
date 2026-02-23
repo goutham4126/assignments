@@ -26,11 +26,11 @@ export class Auth {
   }
 
   login(username: string, password: string) {
-    return this.http.post<any>("https://localhost:7031/api/Auth/login", {username,password});
+    return this.http.post<any>("https://localhost:7055/api/Auth/login", {username,password});
   }
 
   register(userData: any) {
-    return this.http.post<any>("https://localhost:7031/api/Auth/register", userData);
+    return this.http.post<any>("https://localhost:7055/api/Auth/register", userData);
   }
 
   logout() {

@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ProductService {
 
-  private apiUrl = 'https://localhost:7031/api/product';
+  private apiUrl = 'https://localhost:7055/api/product';
 
   products = signal<any[]>([]);
   selectedProduct = signal<any | null>(null);

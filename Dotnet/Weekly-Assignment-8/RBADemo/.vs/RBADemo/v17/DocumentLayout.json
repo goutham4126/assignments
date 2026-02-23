@@ -3,56 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\rbademo\\rbademo\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|solutionrelative:rbademo\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\rbademo\\rbademo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|solutionrelative:rbademo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\rbademo\\rbademo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|solutionrelative:rbademo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\rbademo\\rbademo\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|solutionrelative:rbademo\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\rbademo\\rbademo\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|solutionrelative:rbademo\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\rbademo\\rbademo\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|solutionrelative:rbademo\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\rbademo\\rbademo\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|solutionrelative:rbademo\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\rbademo\\rbademo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|solutionrelative:rbademo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\rbademo\\rbademo\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|solutionrelative:rbademo\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\rbademo\\rbademo\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|solutionrelative:rbademo\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\rbademo\\rbademo\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|solutionrelative:rbademo\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\rbademo\\rbademo\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|solutionrelative:rbademo\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\rbademo\\rbademo\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|solutionrelative:rbademo\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\rbademo\\rbademo\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|solutionrelative:rbademo\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\rbademo\\rbademo\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|solutionrelative:rbademo\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\rbademo\\rbademo\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|solutionrelative:rbademo\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\rbademo\\rbademo\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|solutionrelative:rbademo\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\rbademo\\rbademo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|solutionrelative:rbademo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\rbademo\\rbademo\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|solutionrelative:rbademo\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\rbademo\\rbademo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|solutionrelative:rbademo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\rbademo\\rbademo\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|solutionrelative:rbademo\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\rbademo\\rbademo\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|solutionrelative:rbademo\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\rbademo\\rbademo\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|solutionrelative:rbademo\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\rbademo\\rbademo\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|solutionrelative:rbademo\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\rbademo\\rbademo\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E665C2-0F82-4150-ACCD-EE9F91FB2FB4}|RBADemo\\RBADemo.csproj|solutionrelative:rbademo\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,19 +82,55 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\appsettings.json",
+              "RelativeDocumentMoniker": "RBADemo\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\appsettings.json",
+              "RelativeToolTip": "RBADemo\\appsettings.json",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwAgAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-23T02:49:56.245Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\Models\\User.cs",
+              "RelativeDocumentMoniker": "RBADemo\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\Models\\User.cs",
+              "RelativeToolTip": "RBADemo\\Models\\User.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T02:48:53.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "RBADemo\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "RBADemo\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T02:46:55.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "RBADemo\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\Data\\AppDbContext.cs",
               "RelativeToolTip": "RBADemo\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T09:41:35.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "OrderDto.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\DTOs\\OrderDto.cs",
               "RelativeDocumentMoniker": "RBADemo\\DTOs\\OrderDto.cs",
@@ -94,134 +142,134 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "RBADemo\\Controllers\\OrderController.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\Controllers\\OrderController.cs",
               "RelativeToolTip": "RBADemo\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAiwG0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T09:38:51.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T09:38:51.221Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\Models\\Order.cs",
               "RelativeDocumentMoniker": "RBADemo\\Models\\Order.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\Models\\Order.cs",
               "RelativeToolTip": "RBADemo\\Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwBgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T09:34:32.974Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "RBADemo\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\Controllers\\ProductController.cs",
               "RelativeToolTip": "RBADemo\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAcwF8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T09:17:39.644Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\DTOs\\ProductDto.cs",
               "RelativeDocumentMoniker": "RBADemo\\DTOs\\ProductDto.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\DTOs\\ProductDto.cs",
               "RelativeToolTip": "RBADemo\\DTOs\\ProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T09:00:44.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\Models\\Product.cs",
               "RelativeDocumentMoniker": "RBADemo\\Models\\Product.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\Models\\Product.cs",
               "RelativeToolTip": "RBADemo\\Models\\Product.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvwsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T08:59:57.768Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "RBADemo\\Controllers\\AdminController.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\Controllers\\AdminController.cs",
               "RelativeToolTip": "RBADemo\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAA0AAABgMjMzMzMvwBgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAcwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T08:58:04.392Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "ManagerController.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\Controllers\\ManagerController.cs",
               "RelativeDocumentMoniker": "RBADemo\\Controllers\\ManagerController.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\Controllers\\ManagerController.cs",
               "RelativeToolTip": "RBADemo\\Controllers\\ManagerController.cs",
-              "ViewState": "AgIAABIAAACAZmZmZmYswBoAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwB0AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T08:58:02.919Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "RBADemo\\Controllers\\CustomerController.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "RBADemo\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T08:58:00.761Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "AuthDtos.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\DTOs\\AuthDtos.cs",
               "RelativeDocumentMoniker": "RBADemo\\DTOs\\AuthDtos.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\DTOs\\AuthDtos.cs",
               "RelativeToolTip": "RBADemo\\DTOs\\AuthDtos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T08:51:09.317Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\Program.cs",
               "RelativeDocumentMoniker": "RBADemo\\Program.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\Program.cs",
               "RelativeToolTip": "RBADemo\\Program.cs",
-              "ViewState": "AgIAAEQAAAAAx8zMzEwfwDYAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAiwFQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T06:58:56.018Z"
+              "WhenOpened": "2026-02-20T06:58:56.018Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "JWTService.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\Services\\JWTService.cs",
               "RelativeDocumentMoniker": "RBADemo\\Services\\JWTService.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\RBADemo\\RBADemo\\Services\\JWTService.cs",
               "RelativeToolTip": "RBADemo\\Services\\JWTService.cs",
-              "ViewState": "AgIAABEAAADAmpmZmdkkwB4AAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAiwCsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T06:25:06.383Z"
             }

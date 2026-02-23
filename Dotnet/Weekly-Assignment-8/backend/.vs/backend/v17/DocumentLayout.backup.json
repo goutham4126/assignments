@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE9FB3DF-D215-4705-BE1B-A16FBC60D789}|Infrastructure\\Infrastructure.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\backend\\infrastructure\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE9FB3DF-D215-4705-BE1B-A16FBC60D789}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510922D4-1862-47B7-84B1-3D4F81250976}|API\\API.csproj|c:\\users\\dell\\desktop\\assignments\\dotnet\\weekly-assignment-8\\backend\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{510922D4-1862-47B7-84B1-3D4F81250976}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\backend\\Infrastructure\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\JwtService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\backend\\Infrastructure\\Services\\JwtService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\JwtService.cs",
+              "ViewState": "AgIAABIAAAAAb2ZmZmb2vxQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T10:43:31.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\backend\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Assignments\\Dotnet\\Weekly-Assignment-8\\backend\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAFsAAACAb2ZmZmYkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T10:42:53.832Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

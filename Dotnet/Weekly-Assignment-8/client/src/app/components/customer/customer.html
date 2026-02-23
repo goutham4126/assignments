@@ -87,7 +87,6 @@
               <th class="px-6 py-4">Quantity</th>
               <th class="px-6 py-4">Total</th>
               <th class="px-6 py-4">Date</th>
-              <th class="px-6 py-4 text-right">Action</th>
             </tr>
           </thead>
 
@@ -102,7 +101,7 @@
               </td>
 
               <td class="px-6 py-4">
-                {{ order.productName }}
+                {{ order.product.name }}
               </td>
 
               <td class="px-6 py-4">
@@ -117,14 +116,6 @@
 
               <td class="px-6 py-4 text-gray-400">
                 {{ order.createdAt }}
-              </td>
-
-              <td class="px-6 py-4 text-right">
-                <button
-                  (click)="viewOrder(order.id)"
-                  class="px-4 py-2 rounded-xl bg-white/10 border border-white/20 hover:bg-indigo-600 hover:border-indigo-600 hover:text-white transition-all duration-300">
-                  View
-                </button>
               </td>
 
             </tr>
